@@ -12,5 +12,10 @@
   "bugs": {
     "url": "https://github.com/uvalib/web-styles/issues"
   },
-  "homepage": "https://github.com/uvalib/web-styles#readme"
+  "homepage": "https://github.com/uvalib/web-styles#readme",
+  "devDependencies": {
+    "sass": "^1.26.10"
+  },
+  "scripts": {
+  }
 }
