@@ -5,3 +5,9 @@ $v4-box-shadow-mid:  0 2px 4px rgba(0, 0, 0, 0.10), 0 2px 4px rgba(0, 0, 0, 0.12
 
 $breakpoint-mobile: 768px;
 $breakpoint-tablet: 925px;
+$max-width: 1200px;
+/* small media width */
+@mixin small-viewport { max-width: 30em; };
+
+/* spacing unit of measure */
+$uvalib-spacing-unit: 1em;

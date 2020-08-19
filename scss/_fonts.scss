@@ -1,0 +1,122 @@
+@import '_colors';
+@import '_variables';
+@import url("https://use.typekit.net/pfr1cbw.css");
+
+/* font variables */
+
+/*Pulling in fonts via Typekit, weights will pull in font variants*/
+$uva-font-family: 'franklin-gothic-urw',arial,sans-serif;
+$uva-font-family-condensed: 'franklin-gothic-urw-cond',arial narrow,sans-serif;
+/*try to refrain from using this one, difficult to read on small screens*/
+$uva-font-family-compressed: 'franklin-gothic-urw-comp',arial narrow,sans-serif;
+
+@mixin uva-font-decorative {
+    font-family: 'bodoni-urw',georgia,serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+$font-primary: $uva-font-family;
+
+$font-weight-light: 300; /*not used?*/
+$font-weight-book: 400;
+$font-weight-medium: 500;
+$font-weight-demi: 700;
+$font-weight-heavy: 900;
+
+/* Main sizing unit - changing this will update most of the font size/spacing variables on the site */
+$uvalib-main-font-size-unit: 16px;
+
+/* typography variables */
+@mixin uvalib-font-base {
+    font-family: $font-primary;
+    font-weight: 300;
+    margin-top: calc($uvalib-spacing-unit/1);
+    margin-bottom: calc($uvalib-spacing-unit/4);
+    text-transform: none;
+    color: $uvalib-text-grey;
+}
+
+@mixin h1 {
+    font-family: $uva-font-family;
+    font-weight: $font-weight-demi;
+    font-size: calc($uvalib-main-font-size-unit*3.75);
+    line-height: calc($uvalib-main-font-size-unit*3.75);
+    color: $uvalib-main-jefferson-blue;
+    margin-top: calc($uvalib-spacing-unit/4);
+    margin-bottom: calc($uvalib-spacing-unit/1.5);
+}
+@mixin h2 {
+    font-family: $uva-font-family;
+    font-weight: $font-weight-medium;
+    font-size: calc($uvalib-main-font-size-unit*2);
+    line-height: calc($uvalib-main-font-size-unit*2);
+    color: $uvalib-main-jefferson-blue;
+}
+@mixin h3 {
+    font-family: $uva-font-family;
+    font-weight: $font-weight-medium;
+    font-size: calc($uvalib-main-font-size-unit*1.5);
+    line-height: calc($uvalib-main-font-size-unit*1.5);
+    color: $uvalib-main-jefferson-blue;
+}
+@mixin h3-with-flair {
+    @include uva-font-decorative;
+    font-size: calc($uvalib-main-font-size-unit*1.5);
+    line-height: calc($uvalib-main-font-size-unit*1.5);
+    color: $uvalib-main-jefferson-blue;
+}
+@mixin h4 {
+    font-family: $uva-font-family;
+    font-weight: $font-weight-medium;
+    font-size: calc($uvalib-main-font-size-unit*1.25);
+    line-height: calc($uvalib-main-font-size-unit*1.25);
+    color: $uvalib-main-jefferson-blue;
+}
+@mixin h5 {
+    font-family: $uva-font-family;
+    font-weight: $font-weight-medium;
+    font-size: $uvalib-main-font-size-unit;
+    line-height: $uvalib-main-font-size-unit;
+    color: $uvalib-main-jefferson-blue;
+  }
+@mixin h6 {
+    font-family: $uva-font-family;
+    font-weight: $font-weight-book;
+    font-size: $uvalib-main-font-size-unit;
+    line-height: $uvalib-main-font-size-unit;
+    color: $uvalib-text-grey;
+}
+@mixin font-headline {
+    font-family: $font-primary;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: $uvalib-text-grey;
+};
+
+/* used for headers in card body */
+@mixin font-title {
+    font-family: $font-primary;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: $uvalib-text-grey;
+};
+
+/* main body font */
+@mixin font-body1 {
+    font-family: $font-primary;
+    font-weight: 400;
+    font-style: normal;
+    font-size: $uvalib-main-font-size-unit;
+    line-height: calc($uvalib-main-font-size-unit*1.25);
+    color: $uvalib-text-grey;
+};
+
+$uvalib-liame-link-color: $uvalib-link-color;
+
+@mixin link-hover {
+    text-decoration: underline;
+};
