@@ -17,5 +17,9 @@
     "sass": "^1.26.10"
   },
   "scripts": {
+    "docs": "npx sassdoc scss/ --dest docs"
+  },
+  "dependencies": {
+    "sassdoc": "^2.7.3"
   }
 }
