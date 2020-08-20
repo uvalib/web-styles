@@ -14,12 +14,15 @@
   },
   "homepage": "https://github.com/uvalib/web-styles#readme",
   "devDependencies": {
-    "sass": "^1.26.10"
+    "sassdoc": "^2.7.3",
+    "sass": "^1.26.10",
+    "serve": "^11.3.2"
   },
   "scripts": {
-    "docs": "npx sassdoc scss/ --dest docs"
+    "serve": "npx serve docs", 
+    "docs": "npx sassdoc scss/ --dest docs",
+    
   },
   "dependencies": {
-    "sassdoc": "^2.7.3"
   }
 }
