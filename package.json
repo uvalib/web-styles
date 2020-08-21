@@ -20,8 +20,7 @@
   },
   "scripts": {
     "serve": "npx serve docs", 
-    "docs": "npx sassdoc scss/ --dest docs",
-    
+    "docs": "npx sassdoc scss/ --dest docs"
   },
   "dependencies": {
   }
