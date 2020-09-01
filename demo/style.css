@@ -1,0 +1,71 @@
+/* OFFICIAL 2019-2020 BRAND COLORS */
+/*Secondary Brand Colors*/
+/*ADA compliant*/
+/*ADA compliant*/
+/*ADA compliant for hover over shaded table rows*/
+/*ADA compliant*/
+/*ADA compliant*/
+/* PHASE OUT THE CODE BELOW */
+/* Brand Color Palate*/
+/* link colors for body links */
+/* Other color palette */
+/* color variables */
+/*var(--uvalib-blue-700);*/
+/* paper components reference this */
+/* testing out colors for focus states */
+/* Color Remapping */
+/* common scsss variables for V4 client */
+/* small media width */
+/* spacing unit of measure */
+/* font variables */
+/* be sure to load fonts.js */
+/*Pulling in fonts via Typekit, weights will pull in font variants*/
+/*try to refrain from using this one, difficult to read on small screens*/
+/*not used?*/
+/* Main sizing unit - changing this will update most of the font size/spacing variables on the site */
+/* typography variables */
+/* used for headers in card body */
+/* main body font */
+/* OFFICIAL 2019-2020 BRAND COLORS */
+/*Secondary Brand Colors*/
+/*ADA compliant*/
+/*ADA compliant*/
+/*ADA compliant for hover over shaded table rows*/
+/*ADA compliant*/
+/*ADA compliant*/
+/* PHASE OUT THE CODE BELOW */
+/* Brand Color Palate*/
+/* link colors for body links */
+/* Other color palette */
+/* color variables */
+/*var(--uvalib-blue-700);*/
+/* paper components reference this */
+/* testing out colors for focus states */
+/* Color Remapping */
+/* OFFICIAL 2019-2020 BRAND COLORS */
+/*Secondary Brand Colors*/
+/*ADA compliant*/
+/*ADA compliant*/
+/*ADA compliant for hover over shaded table rows*/
+/*ADA compliant*/
+/*ADA compliant*/
+/* PHASE OUT THE CODE BELOW */
+/* Brand Color Palate*/
+/* link colors for body links */
+/* Other color palette */
+/* color variables */
+/*var(--uvalib-blue-700);*/
+/* paper components reference this */
+/* testing out colors for focus states */
+/* Color Remapping */
+/* common scsss variables for V4 client */
+/* small media width */
+/* spacing unit of measure */
+h1 {
+  font-family: "franklin-gothic-urw", arial, sans-serif;
+  font-weight: 700;
+  font-size: calc($uvalib-main-font-size-unit*3.75);
+  line-height: calc($uvalib-main-font-size-unit*3.75);
+  color: #232D4B;
+  margin-top: calc($uvalib-spacing-unit/4);
+  margin-bottom: calc($uvalib-spacing-unit/1.5); }

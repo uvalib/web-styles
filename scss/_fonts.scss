@@ -1,8 +1,8 @@
 @import '_colors';
 @import '_variables';
-@import url("https://use.typekit.net/pfr1cbw.css");
 
 /* font variables */
+/* be sure to load fonts.js */
 
 /*Pulling in fonts via Typekit, weights will pull in font variants*/
 $uva-font-family: 'franklin-gothic-urw',arial,sans-serif;

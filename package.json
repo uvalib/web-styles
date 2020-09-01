@@ -19,8 +19,10 @@
     "serve": "^11.3.2"
   },
   "scripts": {
-    "serve": "npx serve docs", 
-    "docs": "npx sassdoc scss/ --dest docs"
+    "serve": "npx serve docs",
+    "serve-demo": "npx serve demo",
+    "build-docs": "npx sassdoc scss/ --dest docs",
+    "build-demo": "npx node-sass scss/content.scss demo/style.css; cp fonts.js demo/fonts.js"
   },
   "dependencies": {
   }
