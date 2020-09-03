@@ -13,16 +13,16 @@ export default {
   },
   plugins: [
     multiInput(),
-    postcss({
-      extract: false,
-      inject: false,
-      use: ['sass']
-    }),
     resolve({
       mainFields: ['module'],
       customResolveOptions: {
         moduleDirectory: 'node_modules'
       }
+    }),
+    postcss({
+      extract: false,
+      inject: false,
+      use: ['sass']
     }),
     commonjs(),
     terser()
