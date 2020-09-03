@@ -1,44 +1,193 @@
-/// <br /><svg width="110" height="110"><rect width="300" height="100" style="fill:#000;" /></svg>
-/// @group colors
+/**
+ * Black
+ *
+ * @color
+ * @section General Colors
+ */
 $uvalib-black: #000;
-/// <br /><svg width="110" height="110"><rect width="300" height="100" style="fill:#FFF;" /></svg>
-/// @group colors
+/**
+ * White
+ *
+ * @color
+ * @section General Colors
+ */
 $uvalib-white: #FFF;
-/// <br /><svg width="110" height="110"><rect width="300" height="100" style="fill:#B30000;" /></svg>
-/// @group colors
+/**
+ * Danger
+ *
+ * @color
+ * @section General Colors
+ */
 $uvalib-danger: #B30000;
-/// <br /><svg width="110" height="110"><rect width="300" height="100" style="fill:#00D66E;" /></svg>
-/// @group colors
+/**
+ * Success
+ *
+ * @color
+ * @section General Colors
+ */
 $uvalib-success: #00D66E;
 
 /* OFFICIAL 2019-2020 BRAND COLORS */
+/**
+ * blue (lightest)
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-brand-blue-lightest: #87B9D9;
+/**
+ * Blue (lighter)
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-brand-blue-lighter: #3395D4;
+/**
+ * Blue (light)
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-brand-blue-light: #0370B7;
+/**
+ * Blue
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-brand-blue: #232D4B;
-
+/**
+ * Orange (lightest)
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-brand-orange-lightest: #FFEAD6;
+/**
+ * Orange
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-brand-orange: #E57200;
+/**
+ * Orange (dark)
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-brand-orange-dark: #B35900;
-
+/**
+ * Alternative Blue (light)
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-blue-alt-light: #BFE7F7;
+/**
+ * Alternative Blue (lightest)
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-blue-alt-lightest: #BFE7F7;
+/**
+ * Alternative Blue
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-blue-alt: #007BAC;
+/**
+ * Alternative Blue (dark)
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-blue-alt-dark: #005679;
+/**
+ * Alternative Blue (darkest)
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-blue-alt-darkest: #141E3C;
-
+/**
+ * Teal (lightest)
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-teal-lightest: #C8F2F4;
+/**
+ * Teal (light)
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-teal-light: #5BD7DE;
+/**
+ * Teal
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-teal: #1DA1A8;
+/**
+ * Teal (dark)
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-teal-dark: #16777C;
-
+/**
+ * Green (lightest)
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-green-lightest: #89CC74;
+/**
+ * Green
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-green: #62BB46;
+/**
+ * Green (dark)
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-green-dark: #4E9737;
-
+/**
+ * Red (lightest)
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-red-lightest: #FBCFDA;
+/**
+ * Red
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-red: #EF3F6B;
+/**
+ * Red (dark)
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-red-dark: #DF1E43;
+/**
+ * Red (darkest)
+ *
+ * @color
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-red-darkest: #B30000;
 
 $uvalib-yellow-light: #FEF6C8;
