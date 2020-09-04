@@ -1,1 +1,1 @@
-{"title":"Nucleus","files":["scss/*.scss"],"target":"docs","css":"demo/style.css","namespace":"page","verbose":3,"counterCSS":null,"staticLipsum":false,"placeholderService":false}
+{"title":"Nucleus","files":["scss/*.scss"],"target":"docs","template":"docs-templates","css":"demo/style.css","namespace":"page","verbose":3,"counterCSS":null,"staticLipsum":false,"placeholderService":false}

@@ -1,195 +1,172 @@
-/* @color Black */
+/** @color Black */
 $uvalib-black: #000;
 /** @color White */
 $uvalib-white: #FFF;
-/**
- * Danger color not to be used for text.  Backgrounds only.
- *
- * @color
- * @section General Colors
- */
+/** @color Danger */
 $uvalib-danger: #B30000;
-/**
- * Success
- *
- * @color
- * @section General Colors
- */
+/** @color Success */
 $uvalib-success: #00D66E;
 
 /* OFFICIAL 2019-2020 BRAND COLORS */
 /**
- * blue (lightest)
- *
- * @color
+ * @color Blue (lightest)
  * @section 2019-2020 Brand Colors
  */
 $uvalib-brand-blue-lightest: #87B9D9;
 /**
- * Blue (lighter)
- *
- * @color
+ * @color Blue (lighter)
  * @section 2019-2020 Brand Colors
  */
 $uvalib-brand-blue-lighter: #3395D4;
 /**
- * Blue (light)
- *
- * @color
+ * @color Blue (light)
  * @section 2019-2020 Brand Colors
  */
 $uvalib-brand-blue-light: #0370B7;
 /**
- * Blue
- *
- * @color
+ * @color Blue
  * @section 2019-2020 Brand Colors
  */
 $uvalib-brand-blue: #232D4B;
 /**
- * Orange (lightest)
- *
- * @color
+ * @color Orange (lightest)
  * @section 2019-2020 Brand Colors
  */
 $uvalib-brand-orange-lightest: #FFEAD6;
 /**
- * Orange
- *
- * @color
+ * @color Orange
  * @section 2019-2020 Brand Colors
  */
 $uvalib-brand-orange: #E57200;
 /**
- * Orange (dark)
- *
- * @color
+ * @color Orange (dark)
  * @section 2019-2020 Brand Colors
  */
 $uvalib-brand-orange-dark: #B35900;
 /**
- * Alternative Blue (light)
- *
- * @color
+ * @color Alternative Blue (light)
  * @section 2019-2020 Brand Colors
  */
 $uvalib-blue-alt-light: #BFE7F7;
 /**
- * Alternative Blue (lightest)
- *
- * @color
+ * @color Alternative Blue (lightest)
  * @section 2019-2020 Brand Colors
  */
 $uvalib-blue-alt-lightest: #BFE7F7;
 /**
- * Alternative Blue
- *
- * @color
+ * @color Alternative Blue
  * @section 2019-2020 Brand Colors
  */
 $uvalib-blue-alt: #007BAC;
 /**
- * Alternative Blue (dark)
- *
- * @color
+ * @color Alternative Blue (dark)
  * @section 2019-2020 Brand Colors
  */
 $uvalib-blue-alt-dark: #005679;
 /**
- * Alternative Blue (darkest)
- *
- * @color
+ * @color Alternative Blue (darkest)
  * @section 2019-2020 Brand Colors
  */
 $uvalib-blue-alt-darkest: #141E3C;
 /**
- * Teal (lightest)
- *
- * @color
+ * @color Teal (lightest)
  * @section 2019-2020 Brand Colors
  */
 $uvalib-teal-lightest: #C8F2F4;
 /**
- * Teal (light)
- *
- * @color
+ * @color Teal (light)
  * @section 2019-2020 Brand Colors
  */
 $uvalib-teal-light: #5BD7DE;
 /**
- * Teal
- *
- * @color
+ * @color Teal
  * @section 2019-2020 Brand Colors
  */
 $uvalib-teal: #1DA1A8;
 /**
- * Teal (dark)
- *
- * @color
+ * @color Teal (dark)
  * @section 2019-2020 Brand Colors
  */
 $uvalib-teal-dark: #16777C;
 /**
- * Green (lightest)
- *
- * @color
+ * @color Green (lightest)
  * @section 2019-2020 Brand Colors
  */
 $uvalib-green-lightest: #89CC74;
 /**
- * Green
- *
- * @color
+ * @color Green
  * @section 2019-2020 Brand Colors
  */
 $uvalib-green: #62BB46;
 /**
- * Green (dark)
- *
- * @color
+ * @color Green (dark)
  * @section 2019-2020 Brand Colors
  */
 $uvalib-green-dark: #4E9737;
 /**
- * Red (lightest)
- *
- * @color
+ * @color Red (lightest)
  * @section 2019-2020 Brand Colors
  */
 $uvalib-red-lightest: #FBCFDA;
 /**
- * Red
- *
- * @color
+ * @color Red
  * @section 2019-2020 Brand Colors
  */
 $uvalib-red: #EF3F6B;
 /**
- * Red (dark)
- *
- * @color
+ * @color Red (dark)
  * @section 2019-2020 Brand Colors
  */
 $uvalib-red-dark: #DF1E43;
 /**
- * Red (darkest)
- *
- * @color
+ * @color Red (darkest)
  * @section 2019-2020 Brand Colors
  */
 $uvalib-red-darkest: #B30000;
-
+/**
+ * @color Yellow (light)
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-yellow-light: #FEF6C8;
+/**
+ * @color Yellow (lightest)
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-yellow-lightest: #FEF6C8;
+/**
+ * @color Yellow
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-yellow: #ECC602;
+/**
+ * @color Yellow (dark)
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-yellow-dark: #B99C02;
-
+/**
+ * @color Beige
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-beige: #F7EFE1;
+/**
+ * @color Beige (dark)
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-beige-dark: #C0B298;
-
+/**
+ * @color Grey (lightest)
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-grey-lightest: #F1F1F1;
+/**
+ * @color Grey (light)
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-grey-light: #DADADA;
+/**
+ * @color Grey
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-grey: #808080;
 $uvalib-grey-dark: #565656;
 $uvalib-grey-darkest: #2B2B2B;
