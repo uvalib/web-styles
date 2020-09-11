@@ -1,6 +1,6 @@
 {
   "name": "@uvalib/web-styles",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "",
   "repository": {
     "type": "git",
@@ -14,6 +14,7 @@
   },
   "homepage": "https://github.com/uvalib/web-styles#readme",
   "devDependencies": {
+    "@uvalib/uvalib-footer": "^0.2.18",
     "nucleus-styleguide": "^1.1.1",
     "rollup": "^2.26.9",
     "rollup-plugin-commonjs": "^10.1.0",
@@ -27,8 +28,8 @@
   "scripts": {
     "serve": "npx serve docs",
     "serve-demo": "npx serve demo",
-    "build-demo": "npx node-sass scss/content.scss demo/style.css; npx rollup -c",
-    "styleguide": "npx nucleus --config config.nucleus.json"
+    "build-demo": "npx node-sass scss/style.scss demo/style.css; npx rollup -c",
+    "styleguide": "npm run build-demo; cp demo/style.css docs/; npx nucleus --config config.nucleus.json; npx rollup -c;"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0"

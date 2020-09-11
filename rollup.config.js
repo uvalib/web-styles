@@ -6,9 +6,9 @@ import postcss from 'rollup-plugin-postcss';
 import multiInput from 'rollup-plugin-multi-input';
 
 export default {
-  input: ['src/*.js'],
+  input: ['js/*.js'],
   output: {
-    dir: 'demo',
+    dir: 'docs',
     format: 'esm'
   },
   plugins: [
