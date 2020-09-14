@@ -168,31 +168,101 @@ $uvalib-grey-light: #DADADA;
  * @section 2019-2020 Brand Colors
  */
 $uvalib-grey: #808080;
+/**
+ * @color Grey Dark
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-grey-dark: #565656;
+/**
+ * @color Grey Darkest
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-grey-darkest: #2B2B2B;
 
+/**
+ * @color Text Light
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-text-light: #FFFFFF;
 $uvalib-text: $uvalib-grey-dark;
 $uvalib-text-dark: $uvalib-grey-darkest;
+/**
+ * @color Red Emergency
+ * @section 2019-2020 Brand Colors
+ */
 $uvalib-red-emergency: #DF1E43;
 
 /*Secondary Brand Colors*/
+
+/**
+ * @color Secondary Web Orange
+ * @section Secondary Brand Colors
+ */
 $uvalib-secondary-web-orange: #EB5F0C;
+/**
+ * @color Secondary Web Blue
+ * @section Secondary Brand Colors
+ */
 $uvalib-secondary-web-blue: #141E3C;
+/**
+ * @color Secondary Cyan
+ * @section Secondary Brand Colors
+ */
 $uvalib-secondary-cyan: #009FDF;
+/**
+ * @color Secondary Yellow
+ * @section Secondary Brand Colors
+ */
 $uvalib-secondary-yellow: #FDDA24;
+/**
+ * @color Secondary Teal
+ * @section Secondary Brand Colors
+ */
 $uvalib-secondary-teal: #25CAD3;
+/**
+ * @color Secondary Magenta
+ * @section Secondary Brand Colors
+ */
 $uvalib-secondary-magenta: #EF3F6B;
+/**
+ * @color Secondary Green (ADA compliant)
+ * @section Secondary Brand Colors
+ */
 $uvalib-secondary-green: #008000; /*ADA compliant*/
+/**
+ * @color Secondary Light Gray
+ * @section Secondary Brand Colors
+ */
 $uvalib-secondary-light-gray: #F1F1F1;
+/**
+ * @color Secondary Medium Gray
+ * @section Secondary Brand Colors
+ */
 $uvalib-secondary-medium-gray: #DADADA;
+/**
+ * @color Secondary Text Grey (ADA compliant)
+ * @section Secondary Brand Colors
+ */
 $uvalib-text-grey: #595959; /*ADA compliant*/
+/**
+ * @color Secondary Dark Grey (ADA compliant for hover over shaded table rows)
+ * @section Secondary Brand Colors
+ */
 $uvalib-text-dk-grey: #474747; /*ADA compliant for hover over shaded table rows*/
+/**
+ * @color Secondary Text Almost Black (ADA compliant)
+ * @section Secondary Brand Colors
+ */
 $uvalib-text-almost-black: #212121; /*ADA compliant*/
+/**
+ * @color Secondary Emergency Red (ADA compliant)
+ * @section Secondary Brand Colors
+ */
 $uvalib-secondary-emergency-red: #E00000; /*ADA compliant*/
 
 /* PHASE OUT THE CODE BELOW */
 /* Brand Color Palate*/
+
 $uvalib-main-white: $uvalib-white;
 $uvalib-main-black: $uvalib-black;
 $uvalib-main-rotunda-orange: #E57200;

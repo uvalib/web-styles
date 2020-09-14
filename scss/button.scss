@@ -1,5 +1,6 @@
 @import '_colors';
 @import '_mixins';
+@import '~purecss/build/buttons';
 
 /**
  * @atom Text Button
@@ -50,14 +51,12 @@ button.icon-button {
 }
 
 /**
- * @atom Icon Button
- * @section Button > Icon Button
+ * @atom Link Button
+ * @section Button > Link Button
  * @modifiers
- *  .icon-button an Icon button
+ *  .link-button a Link button
  * @markup
- *  <button class="icon-button">
- *    <i class="fas fa-bars"></i>
- *  </button>
+ *  <a href="https://google.com" tabindex="-1"><button class="link-button">Go to Google</button></a>
  */
 .link-button {
   border-radius: 5px;
@@ -75,7 +74,48 @@ button.icon-button {
       @include be-accessible();
    }
 }
-.pure-button.pure-button-primary {
+
+/**
+ * @atom UVALib Button
+ * @section Button > UVALib Button
+ * @modifiers
+ *  .uvalib-button a button
+ * @markup
+ *  <button class="uvalib-button">UVAlib Button</button>
+ */
+ .uvalib-button {
+   @extend .pure-button;
+ }
+ .uvalib-button:hover {
+   @extend .pure-button:hover;
+ }
+
+ /**
+  * @atom UVALib Primary Button
+  * @section Button > UVALib Button > UVALib Primary Button
+  * @modifiers
+  *  .uvalib-button a button
+  *  .uvalib-primary a primary button
+  * @markup
+  *  <button class="uvalib-button uvalib-button-primary">UVAlib Primary Button</button>
+  */
+.uvalib-button-primary {
+  @extend .pure-button-primary;
+}
+
+/**
+ * @atom UVALib Button Small
+ * @section Button > UVALib Button > UVALib Button Small
+ * @modifiers
+ *  .uvalib-button a button
+ *  .button-small a small button
+ * @markup
+ *  <button class="uvalib-button button-small">UVAlib Small Button</button>
+ */
+.uvalib-button-small {
+}
+
+.uvalib-button-primary, .uvalib-button-small {
    background-color: $uvalib-brand-blue-light;
    border: 1px solid $uvalib-brand-blue-light;
    &:hover {
@@ -85,24 +125,26 @@ button.icon-button {
    }
 }
 
-.pure-button.pure-button-secondary {
-   background-color: $uvalib-brand-blue-lighter;
-   color: black;
+/**
+ * @atom UVALib Button Tertiary
+ * @section Button > UVALib Button > UVALib Button Tertiary
+ * @modifiers
+ *  .uvalib-button a button
+ *  .uvalib-button-tertiary a tertiary button
+ * @markup
+ *  <button class="uvalib-button uvalib-button-tertiary">UVAlib Button Tertiary</button>
+ */
+.uvalib-button-tertiary {
+  background-color: $uvalib-grey-lightest;
+  border: 1px solid $uvalib-grey;
+  color: black;
 }
-.pure-button.pure-button-secondary:hover {
-   background-color: $uvalib-brand-blue-lightest;
+.uvalib-button-tertiary:hover {
+  background-color: $uvalib-grey-light;
 }
-.pure-button.pure-button-tertiary {
-   background-color: $uvalib-grey-lightest;
-   border: 1px solid $uvalib-grey;
-   color: black;
-}
-.pure-button.pure-button-tertiary:hover {
-   background-color: $uvalib-grey-light;
-}
-.pure-button.pure-button-primary,
-.pure-button.pure-button-secondary,
-.pure-button.pure-button-tertiary {
+.uvalib-button-primary,
+.uvalib-button-small,
+.uvalib-button-tertiary {
    margin: 0 0 5px 10px;
    border-radius: 5px;
    font-weight: normal;
@@ -110,7 +152,18 @@ button.icon-button {
       @include be-accessible();
    }
 }
-.pure-button.disabled {
+
+/**
+ * @atom UVALib Button Disabled
+ * @section Button > UVALib Button > UVALib Button Disabled
+ * @modifiers
+ *  .uvalib-button a button
+ *  .disabled a disabled button
+ * @markup
+ *  <button class="uvalib-button disabled">UVAlib Button Disabled</button>
+ */
+.uvalib-button.disabled {
+   @pure-button.disabled
    cursor: default;
    opacity: 0.25;
 }
