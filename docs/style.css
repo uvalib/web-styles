@@ -207,11 +207,6 @@
 /*ADA compliant*/
 /* PHASE OUT THE CODE BELOW */
 /* Brand Color Palate*/
-/**
- * @color Main White
- * @deprecated
- * @section Brand Color Palate
- */
 /* link colors for body links */
 /* Other color palette */
 /* color variables */
@@ -441,11 +436,6 @@
 /*ADA compliant*/
 /* PHASE OUT THE CODE BELOW */
 /* Brand Color Palate*/
-/**
- * @color Main White
- * @deprecated
- * @section Brand Color Palate
- */
 /* link colors for body links */
 /* Other color palette */
 /* color variables */
@@ -662,11 +652,6 @@
 /*ADA compliant*/
 /* PHASE OUT THE CODE BELOW */
 /* Brand Color Palate*/
-/**
- * @color Main White
- * @deprecated
- * @section Brand Color Palate
- */
 /* link colors for body links */
 /* Other color palette */
 /* color variables */
@@ -674,6 +659,16 @@
 /* paper components reference this */
 /* testing out colors for focus states */
 /* Color Remapping */
+/**
+ * Screen Reader only text for used where text is needed for non visual users
+ *
+ * @mixin
+ * @section Accessibility Mixins
+ * @example
+ *  span.srOnly {
+ *    @include sr-only;
+ *  }
+ */
 /* common scsss variables for V4 client */
 /* small media width */
 /* spacing unit of measure */
@@ -895,11 +890,6 @@ h1 {
 /*ADA compliant*/
 /* PHASE OUT THE CODE BELOW */
 /* Brand Color Palate*/
-/**
- * @color Main White
- * @deprecated
- * @section Brand Color Palate
- */
 /* link colors for body links */
 /* Other color palette */
 /* color variables */
@@ -1116,11 +1106,6 @@ h1 {
 /*ADA compliant*/
 /* PHASE OUT THE CODE BELOW */
 /* Brand Color Palate*/
-/**
- * @color Main White
- * @deprecated
- * @section Brand Color Palate
- */
 /* link colors for body links */
 /* Other color palette */
 /* color variables */
@@ -1128,6 +1113,16 @@ h1 {
 /* paper components reference this */
 /* testing out colors for focus states */
 /* Color Remapping */
+/**
+ * Screen Reader only text for used where text is needed for non visual users
+ *
+ * @mixin
+ * @section Accessibility Mixins
+ * @example
+ *  span.srOnly {
+ *    @include sr-only;
+ *  }
+ */
 /*!
 Pure v2.0.3
 Copyright 2013 Yahoo!
