@@ -226,7 +226,65 @@
 /* typography variables */
 /* used for headers in card body */
 /* main body font */
-@import url("https://use.fontawesome.com/releases/v5.14.0/css/all.css");
+.fa, .fab, .fad, .fal, .far, .fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1; }
+
+.fas.fa-pull-left {
+  margin-right: .3em; }
+
+.fas.fa-pull-right {
+  margin-left: .3em; }
+
+.fa, .far, .fas {
+  font-family: "Font Awesome 5 Free"; }
+
+.fa, .fas {
+  font-weight: 900; }
+
+.fab {
+  font-family: "Font Awesome 5 Brands"; }
+
+.fab, .far {
+  font-weight: 400; }
+
+/**
+ * @icon .fa-bars
+ * @markup
+ *  <i class="fas fa-bars"></i>
+ */
+.fa-bars:before {
+  content: "\f0c9"; }
+
+/**
+ * @icon .fa-instagram
+ * @markup
+ *  <i class="fab fa-instagram"></i>
+ */
+.fa-instagram:before {
+  content: "\f16d"; }
+
+/**
+ * @icon .fa-facebook-square
+ * @markup
+ *  <i class="fab fa-facebook-square"></i>
+ */
+.fa-facebook-square:before {
+  content: "\f082"; }
+
+/**
+ * @icon .fa-twitter-square
+ * @markup
+ *  <i class="fab fa-twitter-square"></i>
+ */
+.fa-twitter-square:before {
+  content: "\f081"; }
+
 /** @color Black */
 /** @color White */
 /** @color Danger */
