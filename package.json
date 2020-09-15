@@ -1,6 +1,6 @@
 {
   "name": "@uvalib/web-styles",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "",
   "repository": {
     "type": "git",
@@ -15,6 +15,7 @@
   "homepage": "https://github.com/uvalib/web-styles#readme",
   "devDependencies": {
     "@uvalib/uvalib-footer": "^0.2.18",
+    "node-sass-package-importer": "^5.3.2",
     "nucleus-styleguide": "^1.1.1",
     "rollup": "^2.26.9",
     "rollup-plugin-commonjs": "^10.1.0",
@@ -22,7 +23,6 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-postcss": "^3.1.8",
     "rollup-plugin-terser": "^7.0.1",
-    "node-sass-package-importer": "^5.3.2",
     "sass": "^1.26.10",
     "serve": "^11.3.2"
   },
@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
+    "@uvalib/uvalib-image": "^0.1.23",
     "purecss": "^2.0.3"
   }
 }
