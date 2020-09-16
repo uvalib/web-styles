@@ -1360,9 +1360,17 @@ button.icon-button {
  * @section Button > UVALib Button
  * @modifiers
  *  .uvalib-button a button
+ *  --uvalib-button-background-color Background Color
+ *  --uvalib-button-hover-background-color Hover Background Color
  * @markup
  *  <button class="uvalib-button">UVAlib Button</button>
  */
+.uvalib-button {
+  background-color: var(--uvalib-button-background-color); }
+
+.uvalib-button:hover {
+  background-color: var(--uvalib-button-hover-background-color); }
+
 /**
   * @atom UVALib Primary Button
   * @section Button > UVALib Button > UVALib Primary Button
@@ -1372,6 +1380,9 @@ button.icon-button {
   * @markup
   *  <button class="uvalib-button uvalib-button-primary">UVAlib Primary Button</button>
   */
+.uvalib-button-primary {
+  background-color: var(--uvalib-button-background-color); }
+
 /**
  * @atom UVALib Button Small
  * @section Button > UVALib Button > UVALib Button Small
@@ -1382,7 +1393,7 @@ button.icon-button {
  *  <button class="uvalib-button button-small">UVAlib Small Button</button>
  */
 .uvalib-button-primary, .uvalib-button-small {
-  background-color: #0370B7;
+  background-color: var(--uvalib-button-background-color, #0370B7);
   border: 1px solid #0370B7; }
   .uvalib-button-primary:hover, .uvalib-button-small:hover {
     background-color: #3395D4;
@@ -1399,12 +1410,12 @@ button.icon-button {
  *  <button class="uvalib-button uvalib-button-tertiary">UVAlib Button Tertiary</button>
  */
 .uvalib-button-tertiary {
-  background-color: #F1F1F1;
+  background-color: var(--uvalib-button-background-color, #F1F1F1);
   border: 1px solid #808080;
   color: black; }
 
 .uvalib-button-tertiary:hover {
-  background-color: #DADADA; }
+  background-color: var(--uvalib-button-hover-background-color, #DADADA); }
 
 .uvalib-button-primary,
 .uvalib-button-small,
