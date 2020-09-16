@@ -7,22 +7,25 @@
 .fab,.far{font-weight:400}
 
 /**
- * @icon .fa-instagram
+ * @icon .instagram
  * @markup
- *  <i class="fab fa-instagram"></i>
+ *  <i class="instagram"></i>
  */
-.fa-instagram:before{content:"\f16d"}
+.instagram{ @extend .fab }
+.instagram:before{content:"\f16d"}
 
 /**
- * @icon .fa-facebook-square
+ * @icon .facebook-square
  * @markup
- *  <i class="fab fa-facebook-square"></i>
+ *  <i class="facebook-square"></i>
  */
-.fa-facebook-square:before{content:"\f082"}
+.facebook-square{ @extend .fab }
+.facebook-square:before{content:"\f082"}
 
 /**
- * @icon .fa-twitter-square
+ * @icon .twitter-square
  * @markup
- *  <i class="fab fa-twitter-square"></i>
+ *  <i class="twitter-square"></i>
  */
-.fa-twitter-square:before{content:"\f081"}
+.twitter-square{ @extend .fab }
+.twitter-square:before{content:"\f081"}

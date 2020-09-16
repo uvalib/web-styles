@@ -226,7 +226,7 @@
 /* typography variables */
 /* used for headers in card body */
 /* main body font */
-.fa, .fab, .fad, .fal, .far, .fas {
+.fa, .fab, .instagram, .facebook-square, .twitter-square, .fad, .fal, .far, .fas {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -247,42 +247,34 @@
 .fa, .fas {
   font-weight: 900; }
 
-.fab {
+.fab, .instagram, .facebook-square, .twitter-square {
   font-family: "Font Awesome 5 Brands"; }
 
-.fab, .far {
+.fab, .instagram, .facebook-square, .twitter-square, .far {
   font-weight: 400; }
 
 /**
- * @icon .fa-bars
+ * @icon .instagram
  * @markup
- *  <i class="fas fa-bars"></i>
+ *  <i class="instagram"></i>
  */
-.fa-bars:before {
-  content: "\f0c9"; }
-
-/**
- * @icon .fa-instagram
- * @markup
- *  <i class="fab fa-instagram"></i>
- */
-.fa-instagram:before {
+.instagram:before {
   content: "\f16d"; }
 
 /**
- * @icon .fa-facebook-square
+ * @icon .facebook-square
  * @markup
- *  <i class="fab fa-facebook-square"></i>
+ *  <i class="facebook-square"></i>
  */
-.fa-facebook-square:before {
+.facebook-square:before {
   content: "\f082"; }
 
 /**
- * @icon .fa-twitter-square
+ * @icon .twitter-square
  * @markup
- *  <i class="fab fa-twitter-square"></i>
+ *  <i class="twitter-square"></i>
  */
-.fa-twitter-square:before {
+.twitter-square:before {
   content: "\f081"; }
 
 /** @color Black */
@@ -718,7 +710,7 @@
 /* testing out colors for focus states */
 /* Color Remapping */
 /**
- * Screen Reader only text for used where text is needed for non visual users
+ * Screen Reader only text for use where text is needed for non visual users
  *
  * @mixin
  * @section Accessibility Mixins
@@ -1172,7 +1164,7 @@ h1 {
 /* testing out colors for focus states */
 /* Color Remapping */
 /**
- * Screen Reader only text for used where text is needed for non visual users
+ * Screen Reader only text for use where text is needed for non visual users
  *
  * @mixin
  * @section Accessibility Mixins

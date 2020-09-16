@@ -1,5 +1,5 @@
 {
-  "title":"Nucleus",
+  "title":"UVA Library Web Styles",
   "files":["scss/*.scss"],
   "target":"docs",
   "template":"docs-templates",
