@@ -22,6 +22,7 @@
 }
 
 // SCSS mixin definitions for V4client
+/*
 @mixin be-accessible {
     outline: 0;
     box-shadow: 0 0 0 0.2rem var(--uvalib-accessibility-highlight, $uvalib-accessibility-highlight);
@@ -30,4 +31,24 @@
 @mixin apply-hover {
     background-color: var(--uvalib-brand-blue-lightest, $uvalib-brand-blue-lightest);
     color: var(--uvalib-text-dark, $uvalib-text-dark);
+}
+*/
+
+@mixin be-accessible(){
+  outline: 3px dotted var( --uvalib-accessible-outline-color, $uvalib-accessibility-highlight);
+  outline-offset: 3px;
+}
+@mixin be-accessible-light(){
+  outline: 3px dotted var(--uvalib-accessibility-outline-color-light, $uvalib-grey-lightest);
+  outline-offset: 3px;
+}
+
+@mixin be-accessible-field(){
+  outline: 0;
+  box-shadow: inset 0 0 5px 1px var(--uvalib-accessible-box-shadow-color, $uvalib-accessibility-highlight);
+}
+
+@mixin apply-hover() {
+   background-color: var(--uvalib-brand-blue-lightest);
+   color: var(--uvalib-text-dark);
 }
