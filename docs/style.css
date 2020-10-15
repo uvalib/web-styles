@@ -205,6 +205,39 @@
  * @section Secondary Brand Colors
  */
 /*ADA compliant*/
+/* STATUS COLORS - ADA COMPLIANT - IBM MODEL */
+/**
+ * @color Status Lite Orange (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Orange (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Magenta (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Purple (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Blue (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Available (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Modified (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Not Available (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
 /* PHASE OUT THE CODE BELOW */
 /* Brand Color Palate*/
 /* link colors for body links */
@@ -484,6 +517,39 @@
  * @section Secondary Brand Colors
  */
 /*ADA compliant*/
+/* STATUS COLORS - ADA COMPLIANT - IBM MODEL */
+/**
+ * @color Status Lite Orange (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Orange (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Magenta (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Purple (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Blue (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Available (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Modified (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Not Available (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
 /* PHASE OUT THE CODE BELOW */
 /* Brand Color Palate*/
 /* link colors for body links */
@@ -700,6 +766,39 @@
  * @section Secondary Brand Colors
  */
 /*ADA compliant*/
+/* STATUS COLORS - ADA COMPLIANT - IBM MODEL */
+/**
+ * @color Status Lite Orange (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Orange (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Magenta (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Purple (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Blue (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Available (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Modified (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Not Available (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
 /* PHASE OUT THE CODE BELOW */
 /* Brand Color Palate*/
 /* link colors for body links */
@@ -719,6 +818,17 @@
  *    @include sr-only;
  *  }
  */
+/*
+@mixin be-accessible {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem var(--uvalib-accessibility-highlight, $uvalib-accessibility-highlight);
+}
+
+@mixin apply-hover {
+    background-color: var(--uvalib-brand-blue-lightest, $uvalib-brand-blue-lightest);
+    color: var(--uvalib-text-dark, $uvalib-text-dark);
+}
+*/
 /* common scsss variables for V4 client */
 /* small media width */
 /* spacing unit of measure */
@@ -938,6 +1048,39 @@ h1 {
  * @section Secondary Brand Colors
  */
 /*ADA compliant*/
+/* STATUS COLORS - ADA COMPLIANT - IBM MODEL */
+/**
+ * @color Status Lite Orange (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Orange (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Magenta (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Purple (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Blue (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Available (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Modified (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Not Available (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
 /* PHASE OUT THE CODE BELOW */
 /* Brand Color Palate*/
 /* link colors for body links */
@@ -1154,6 +1297,39 @@ h1 {
  * @section Secondary Brand Colors
  */
 /*ADA compliant*/
+/* STATUS COLORS - ADA COMPLIANT - IBM MODEL */
+/**
+ * @color Status Lite Orange (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Orange (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Magenta (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Purple (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Blue (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Available (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Modified (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
+/**
+ * @color Status Not Available (ADA compliant - IBM Model)
+ * @section Status Colors
+ */
 /* PHASE OUT THE CODE BELOW */
 /* Brand Color Palate*/
 /* link colors for body links */
@@ -1173,6 +1349,17 @@ h1 {
  *    @include sr-only;
  *  }
  */
+/*
+@mixin be-accessible {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem var(--uvalib-accessibility-highlight, $uvalib-accessibility-highlight);
+}
+
+@mixin apply-hover {
+    background-color: var(--uvalib-brand-blue-lightest, $uvalib-brand-blue-lightest);
+    color: var(--uvalib-text-dark, $uvalib-text-dark);
+}
+*/
 /*!
 Pure v2.0.3
 Copyright 2013 Yahoo!
@@ -1309,8 +1496,8 @@ button.text-button {
     opacity: 1;
     text-decoration: underline; }
   button.text-button:focus {
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem var(--uvalib-accessibility-highlight, #0370B7); }
+    outline: 3px dotted var(--uvalib-accessible-outline-color, #0370B7);
+    outline-offset: 3px; }
 
 /**
  * @atom Icon Button
@@ -1329,8 +1516,8 @@ button.icon-button {
   margin: 0;
   outline: none; }
   button.icon-button:focus {
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem var(--uvalib-accessibility-highlight, #0370B7); }
+    outline: 3px dotted var(--uvalib-accessible-outline-color, #0370B7);
+    outline-offset: 3px; }
 
 /**
  * @atom Link Button
@@ -1352,8 +1539,8 @@ button.icon-button {
     background-color: #DADADA;
     color: #2B2B2B; }
   .link-button:focus {
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem var(--uvalib-accessibility-highlight, #0370B7); }
+    outline: 3px dotted var(--uvalib-accessible-outline-color, #0370B7);
+    outline-offset: 3px; }
 
 /**
  * @atom UVALib Button
@@ -1426,8 +1613,8 @@ button.icon-button {
   .uvalib-button-primary:focus,
   .uvalib-button-small:focus,
   .uvalib-button-tertiary:focus {
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem var(--uvalib-accessibility-highlight, #0370B7); }
+    outline: 3px dotted var(--uvalib-accessible-outline-color, #0370B7);
+    outline-offset: 3px; }
 
 /**
  * @atom UVALib Button Disabled
