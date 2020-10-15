@@ -1,6 +1,6 @@
 {
   "name": "@uvalib/web-styles",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "",
   "repository": {
     "type": "git",
@@ -34,7 +34,11 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
-    "@uvalib/uvalib-image": "^0.1.23",
+    "@uvalib/uvalib-accordion": "^0.1.17",
+    "@uvalib/uvalib-alerts": "^0.3.4",
+    "@uvalib/uvalib-button": "^0.0.7",
+    "@uvalib/uvalib-collapse": "^0.1.20",
+    "@uvalib/uvalib-image": "^0.1.27",
     "purecss": "^2.0.3"
   }
 }
