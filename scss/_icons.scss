@@ -1,31 +1,477 @@
-.fa,.fab,.fad,.fal,.far,.fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}
-.fas.fa-pull-left{margin-right:.3em}
-.fas.fa-pull-right{margin-left:.3em}
-.fa,.far,.fas{font-family:"Font Awesome 5 Free"}
-.fa,.fas{font-weight:900}
-.fab{font-family:"Font Awesome 5 Brands"}
-.fab,.far{font-weight:400}
+.fa,.fas,.far,.fal,.fad,.fab {-moz-osx-font-smoothing: grayscale;-webkit-font-smoothing: antialiased;display: inline-block;font-style: normal;font-variant: normal;text-rendering: auto;line-height: 1; }
+.fa.fa-pull-left,.fas.fa-pull-left,.far.fa-pull-left,.fal.fa-pull-left,.fab.fa-pull-left {margin-right: .3em; }
+.fa.fa-pull-right,.fas.fa-pull-right,.far.fa-pull-right,.fal.fa-pull-right,.fab.fa-pull-right {margin-left: .3em; }
+.fal {font-family: 'Font Awesome 5 Pro';font-weight: 300; }
+.fab {font-family: 'Font Awesome 5 Brands';font-weight: 400; }
 
 /**
- * @icon .instagram
+ * Critical, Emergency Alerts / Attention Status
+ *
+ * @atom .icon-exclamation-circle
+ * @section Icons
  * @markup
- *  <i class="instagram"></i>
+ *  <i class="icon-exclamation-circle"></i>
  */
-.instagram{ @extend .fab }
-.instagram:before{content:"\f16d"}
+.icon-exclamation-circle{ @extend .fal }
+.icon-exclamation-circle:before {content:"\f06a";}
 
 /**
- * @icon .facebook-square
+ * Warning Alerts / Modified Status
+ *
+ * @atom .icon-exclamation-triangle
+ * @section Icons
  * @markup
- *  <i class="facebook-square"></i>
+ *  <i class="icon-exclamation-triangle"></i>
  */
-.facebook-square{ @extend .fab }
-.facebook-square:before{content:"\f082"}
+.icon-exclamation-triangle{ @extend .fal }
+.icon-exclamation-triangle:before {content:"\f071";}
 
 /**
- * @icon .twitter-square
+ * Info / FYI / Informational Alerts
+ *
+ * @atom .icon-info-circle
+ * @section Icons
  * @markup
- *  <i class="twitter-square"></i>
+ *  <i class="icon-info-circle"></i>
  */
-.twitter-square{ @extend .fab }
-.twitter-square:before{content:"\f081"}
+.icon-info-circle{ @extend .fal }
+.icon-info-circle:before {content: "\f05a";}
+
+/**
+ * Error, Problem Alerts / Not Available
+ *
+ * @atom .icon-ban
+ * @section Icons
+ * @markup
+ *  <i class="icon-ban"></i>
+ */
+ .icon-ban{ @extend .fal }
+ .icon-ban:before{content: "\f05e";}
+
+/**
+ * Success / Conformation Alerts
+ *
+ * @atom .icon-check-circle
+ * @section Icons
+ * @markup
+ *  <i class="icon-check-circle"></i>
+ */
+ .icon-check-circle{ @extend .fal }
+ .icon-check-circle:before{content: "\f058";}
+
+/**
+ * Hours
+ *
+ * @atom .icon-clock
+ * @section Icons
+ * @markup
+ *  <i class="icon-clock"></i>
+ */
+ .icon-clock{ @extend .fal }
+ .icon-clock:before{content: "\f017";}
+
+/**
+ * Ask a Librarian
+ *
+ * @atom .icon-comment-dots
+ * @section Icons
+ * @markup
+ *  <i class="icon-comment-dots"></i>
+ */
+ .icon-comment-dots{ @extend .fal }
+ .icon-comment-dots:before{content: "\f4ad";}
+
+/**
+ * Account / MyAccount
+ *
+ * @atom .icon-user-circle
+ * @section Icons
+ * @markup
+ *  <i class="icon-user-circle"></i>
+ */
+ .icon-user-circle{ @extend .fal }
+ .icon-user-circle:before{content: "\f2bd";}
+
+/**
+ * Alert (appears in navbar)
+ *
+ * @atom .icon-bell
+ * @section Icons
+ * @markup
+ *  <i class="icon-bell"></i>
+ */
+ .icon-bell{ @extend .fal }
+ .icon-bell:before{content: "\f0f3";}
+
+/**
+ * Return to top
+ *
+ * @atom .icon-chevron-circle-up
+ * @section Icons
+ * @markup
+ *  <i class="icon-chevron-circle-up"></i>
+ */
+ .icon-chevron-circle-up{ @extend .fal }
+ .icon-chevron-circle-up:before{content: "\f139";}
+
+/**
+ * Search
+ *
+ * @atom .icon-search
+ * @section Icons
+ * @markup
+ *  <i class="icon-search"></i>
+ */
+ .icon-search{ @extend .fal }
+ .icon-search:before{content: "\f002";}
+
+/**
+ * Status Available / Conformation
+ *
+ * @atom .icon-check
+ * @section Icons
+ * @markup
+ *  <i class="icon-check"></i>
+ */
+ .icon-check{ @extend .fal }
+ .icon-check:before{content: "\f00c";}
+
+/**
+ * External Link
+ *
+ * @atom .icon-external-link-alt
+ * @section Icons
+ * @markup
+ *  <i class="icon-external-link-alt"></i>
+ */
+ .icon-external-link-alt{ @extend .fal }
+ .icon-external-link-alt:before{content: "\f35d";}
+
+/**
+ * Image Expand
+ *
+ * @atom .icon-search-plus
+ * @section Icons
+ * @markup
+ *  <i class="icon-search-plus"></i>
+ */
+ .icon-search-plus{ @extend .fal }
+ .icon-search-plus:before{content: "\f00e";}
+
+/**
+ * Course Reserves
+ *
+ * @atom .icon-university
+ * @section Icons
+ * @markup
+ *  <i class="icon-university"></i>
+ */
+ .icon-university{ @extend .fal }
+ .icon-university:before{content: "\f19c";}
+
+/**
+ * Accordion Expand
+ *
+ * @atom .icon-plus
+ * @section Icons
+ * @markup
+ *  <i class="icon-plus"></i>
+ */
+ .icon-plus{ @extend .fal }
+ .icon-plus:before{content: "\f067";}
+
+/**
+ * Accordion Collapse
+ *
+ * @atom .icon-minus
+ * @section Icons
+ * @markup
+ *  <i class="icon-minus"></i>
+ */
+ .icon-minus{ @extend .fal }
+ .icon-minus:before{content: "\f068";}
+
+/**
+ * Drop Down Menu up
+ *
+ * @atom .icon-caret-up
+ * @section Icons
+ * @markup
+ *  <i class="icon-caret-up"></i>
+ */
+ .icon-caret-up{ @extend .fal }
+ .icon-caret-up:before{content: "\f0d8";} 
+
+/**
+ * Drop Down Menu down 
+ *
+ * @atom .icon-caret-down
+ * @section Icons
+ * @markup
+ *  <i class="icon-caret-down"></i>
+ */
+ .icon-caret-down{ @extend .fal }
+ .icon-caret-down:before{content: "\f0d7";}
+
+/**
+ * Cite
+ *
+ * @atom .icon-quote-right
+ * @section Icons
+ * @markup
+ *  <i class="icon-quote-right"></i>
+ */
+ .icon-quote-right{ @extend .fal }
+ .icon-quote-right:before{content: "\f10e";} 
+
+/**
+ * Print
+ *
+ * @atom .icon-print
+ * @section Icons
+ * @markup
+ *  <i class="icon-print"></i>
+ */
+ .icon-print{ @extend .fal }
+ .icon-print:before{content: "\f02f";} 
+
+/**
+ * Copy
+ *
+ * @atom .icon-copy
+ * @section Icons
+ * @markup
+ *  <i class="icon-copy"></i>
+ */
+ .icon-copy{ @extend .fal }
+ .icon-copy:before{content: "\f0c5";} 
+
+/**
+ * Edit
+ *
+ * @atom .icon-edit
+ * @section Icons
+ * @markup
+ *  <i class="icon-edit"></i>
+ */
+ .icon-edit{ @extend .fal }
+ .icon-edit:before{content: "\f044";} 
+ 
+/**
+ * Delete
+ *
+ * @atom .icon-trash-alt
+ * @section Icons
+ * @markup
+ *  <i class="icon-trash-alt"></i>
+ */
+ .icon-trash-alt{ @extend .fal }
+ .icon-trash-alt:before{content: "\f2ed";}
+
+/**
+ * Download
+ *
+ * @atom .icon-download
+ * @section Icons
+ * @markup
+ *  <i class="icon-download"></i>
+ */
+ .icon-download{ @extend .fal }
+ .icon-download:before{content: "\f019";}
+
+/**
+ * Calendar 
+ *
+ * @atom .icon-calendar-alt
+ * @section Icons
+ * @markup
+ *  <i class="icon-calendar-alt"></i>
+ */
+ .icon-calendar-alt{ @extend .fal }
+ .icon-calendar-alt:before{content: "\f073";}
+
+/**
+ * PDF 
+ *
+ * @atom .icon-file-pdf
+ * @section Icons
+ * @markup
+ *  <i class="icon-file-pdf"></i>
+ */
+ .icon-file-pdf{ @extend .fal }
+ .icon-file-pdf:before{content: "\f1c1"; }
+
+/**
+ * Facebook
+ *
+ * @atom .icon-facebook-square
+ * @section Icons
+ * @markup
+ *  <i class="icon-facebook-square"></i>
+ */
+ .icon-facebook-square{ @extend .fab }
+ .icon-facebook-square:before{content: "\f082";}
+
+/**
+ * Instagram
+ *
+ * @atom .icon-instagram
+ * @section Icons
+ * @markup
+ *  <i class="icon-instagram"></i>
+ */
+ .icon-instagram{ @extend .fab }
+ .icon-instagram:before{content: "\f16d";}
+
+/**
+ * Twitter
+ *
+ * @atom .icon-twitter-square
+ * @section Icons
+ * @markup
+ *  <i class="icon-twitter-square"></i>
+ */
+ .icon-twitter-square{ @extend .fab }
+ .icon-twitter-square:before{content: "\f081";}
+
+/**
+ * Vimeo
+ *
+ * @atom .icon-vimeo
+ * @section Icons
+ * @markup
+ *  <i class="icon-vimeo"></i>
+ */
+ .icon-vimeo{ @extend .fab }
+ .icon-vimeo:before{content: "\f40a";}
+
+/**
+ * Youtube
+ *
+ * @atom .icon-youtube
+ * @section Icons
+ * @markup
+ *  <i class="icon-youtube"></i>
+ */
+ .icon-youtube{ @extend .fab }
+ .icon-youtube:before{content: "\f167";}
+
+/**
+ * Email
+ *
+ * @atom .icon-envelope
+ * @section Icons
+ * @markup
+ *  <i class="icon-envelope"></i>
+ */
+ .icon-envelope{ @extend .fal }
+ .icon-envelope:before{content: "\f0e0";}
+
+/**
+ * Bookmark
+ *
+ * @atom .icon-bookmark
+ * @section Icons
+ * @markup
+ *  <i class="icon-bookmark"></i>
+ */
+ .icon-bookmark{ @extend .fal }
+ .icon-bookmark:before{content: "\f02e";}
+
+/**
+ * Close Window / Close Dialog
+ *
+ * @atom .icon-window-close
+ * @section Icons
+ * @markup
+ *  <i class="icon-window-close"></i>
+ */
+ .icon-window-close{ @extend .fal }
+ .icon-window-close:before{content: "\f410";}
+
+/**
+ * Remove Search Criteria
+ *
+ * @atom .icon-x-circle
+ * @section Icons
+ * @markup
+ *  <i class="icon-x-circle"></i>
+ */
+ .icon-times-circle{ @extend .fal }
+ .icon-times-circle:before{content: "\f057";}
+
+/**
+ * Add Criteria
+ * 
+ * @atom .icon-plus-circle
+ * @section Icons
+ * @markup
+ *  <i class="icon-plus-circle"></i>
+ */
+ .icon-plus-circle{ @extend .fal }
+ .icon-plus-circle:before{content: "\f055";}
+
+/**
+ * Refresh Page / Reload / Reset
+ * @atom .icon-redo-alt
+ * @section Icons
+ * @markup
+ *  <i class="icon-redo-alt"></i>
+ */
+ .icon-redo-alt{ @extend .fal }
+ .icon-redo-alt:before{content: "\f2f9";}
+
+/**
+ * Slide Left (on page)
+ *
+ * @atom .icon-chevron-double-left
+ * @section Icons
+ * @markup
+ *  <i class="icon-chevron-double-left"></i>
+ */
+ .icon-chevron-double-left{ @extend .fal }
+ .icon-chevron-double-left:before{content: "\f323";}
+
+/**
+ * Slide Right (on page)
+ *
+ * @atom .icon-chevron-double-right
+ * @section Icons
+ * @markup
+ *  <i class="icon-chevron-double-right"></i>
+ */
+ .icon-chevron-double-right{ @extend .fal }
+ .icon-chevron-double-right:before{content: "\f324";}
+
+/**
+ * Page Forward
+ *
+ * @atom .icon-arrow-right
+ * @section Icons
+ * @markup
+ *  <i class="icon-arrow-right"></i>
+ */
+ .icon-arrow-right{ @extend .fal }
+ .icon-arrow-right:before{content: "\f178";}
+
+/**
+ * Page Back
+ *
+ * @atom .icon-arrow-left
+ * @section Icons
+ * @markup
+ *  <i class="icon-arrow-left"></i>
+ */
+ .icon-arrow-left{ @extend .fal }
+ .icon-arrow-left:before{content: "\f177";}
+
+/**
+ * Special Selected / Preferred
+ *
+ * @atom .icon-star
+ * @section Icons
+ * @markup
+ *  <i class="icon-star"></i>
+ */
+ .icon-star{ @extend .fal }
+ .icon-star:before{content: "\f005";}

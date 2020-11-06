@@ -16,6 +16,8 @@ mixin icon(icon)
         div.SG-icon-preview__name #{icon.name}
           if (icon.deprecated)
             span.SG-pill deprecated
+          else
+            | #{icon.description}
 
     div.SG-row
       div.SG-gr-11

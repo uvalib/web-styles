@@ -259,7 +259,7 @@
 /* typography variables */
 /* used for headers in card body */
 /* main body font */
-.fa, .fab, .instagram, .facebook-square, .twitter-square, .fad, .fal, .far, .fas {
+.fa, .fas, .far, .fal, .icon-exclamation-circle, .icon-exclamation-triangle, .icon-info-circle, .icon-ban, .icon-check-circle, .icon-clock, .icon-comment-dots, .icon-user-circle, .icon-bell, .icon-chevron-circle-up, .icon-search, .icon-check, .icon-external-link-alt, .icon-search-plus, .icon-university, .icon-plus, .icon-minus, .icon-caret-up, .icon-caret-down, .icon-quote-right, .icon-print, .icon-copy, .icon-edit, .icon-trash-alt, .icon-download, .icon-calendar-alt, .icon-file-pdf, .icon-envelope, .icon-bookmark, .icon-window-close, .icon-times-circle, .icon-plus-circle, .icon-redo-alt, .icon-chevron-double-left, .icon-chevron-double-right, .icon-arrow-right, .icon-arrow-left, .icon-star, .fad, .fab, .icon-facebook-square, .icon-instagram, .icon-twitter-square, .icon-vimeo, .icon-youtube {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -268,47 +268,491 @@
   text-rendering: auto;
   line-height: 1; }
 
-.fas.fa-pull-left {
+.fa.fa-pull-left, .fas.fa-pull-left, .far.fa-pull-left, .fal.fa-pull-left, .fa-pull-left.icon-exclamation-circle, .fa-pull-left.icon-exclamation-triangle, .fa-pull-left.icon-info-circle, .fa-pull-left.icon-ban, .fa-pull-left.icon-check-circle, .fa-pull-left.icon-clock, .fa-pull-left.icon-comment-dots, .fa-pull-left.icon-user-circle, .fa-pull-left.icon-bell, .fa-pull-left.icon-chevron-circle-up, .fa-pull-left.icon-search, .fa-pull-left.icon-check, .fa-pull-left.icon-external-link-alt, .fa-pull-left.icon-search-plus, .fa-pull-left.icon-university, .fa-pull-left.icon-plus, .fa-pull-left.icon-minus, .fa-pull-left.icon-caret-up, .fa-pull-left.icon-caret-down, .fa-pull-left.icon-quote-right, .fa-pull-left.icon-print, .fa-pull-left.icon-copy, .fa-pull-left.icon-edit, .fa-pull-left.icon-trash-alt, .fa-pull-left.icon-download, .fa-pull-left.icon-calendar-alt, .fa-pull-left.icon-file-pdf, .fa-pull-left.icon-envelope, .fa-pull-left.icon-bookmark, .fa-pull-left.icon-window-close, .fa-pull-left.icon-times-circle, .fa-pull-left.icon-plus-circle, .fa-pull-left.icon-redo-alt, .fa-pull-left.icon-chevron-double-left, .fa-pull-left.icon-chevron-double-right, .fa-pull-left.icon-arrow-right, .fa-pull-left.icon-arrow-left, .fa-pull-left.icon-star, .fab.fa-pull-left, .fa-pull-left.icon-facebook-square, .fa-pull-left.icon-instagram, .fa-pull-left.icon-twitter-square, .fa-pull-left.icon-vimeo, .fa-pull-left.icon-youtube {
   margin-right: .3em; }
 
-.fas.fa-pull-right {
+.fa.fa-pull-right, .fas.fa-pull-right, .far.fa-pull-right, .fal.fa-pull-right, .fa-pull-right.icon-exclamation-circle, .fa-pull-right.icon-exclamation-triangle, .fa-pull-right.icon-info-circle, .fa-pull-right.icon-ban, .fa-pull-right.icon-check-circle, .fa-pull-right.icon-clock, .fa-pull-right.icon-comment-dots, .fa-pull-right.icon-user-circle, .fa-pull-right.icon-bell, .fa-pull-right.icon-chevron-circle-up, .fa-pull-right.icon-search, .fa-pull-right.icon-check, .fa-pull-right.icon-external-link-alt, .fa-pull-right.icon-search-plus, .fa-pull-right.icon-university, .fa-pull-right.icon-plus, .fa-pull-right.icon-minus, .fa-pull-right.icon-caret-up, .fa-pull-right.icon-caret-down, .fa-pull-right.icon-quote-right, .fa-pull-right.icon-print, .fa-pull-right.icon-copy, .fa-pull-right.icon-edit, .fa-pull-right.icon-trash-alt, .fa-pull-right.icon-download, .fa-pull-right.icon-calendar-alt, .fa-pull-right.icon-file-pdf, .fa-pull-right.icon-envelope, .fa-pull-right.icon-bookmark, .fa-pull-right.icon-window-close, .fa-pull-right.icon-times-circle, .fa-pull-right.icon-plus-circle, .fa-pull-right.icon-redo-alt, .fa-pull-right.icon-chevron-double-left, .fa-pull-right.icon-chevron-double-right, .fa-pull-right.icon-arrow-right, .fa-pull-right.icon-arrow-left, .fa-pull-right.icon-star, .fab.fa-pull-right, .fa-pull-right.icon-facebook-square, .fa-pull-right.icon-instagram, .fa-pull-right.icon-twitter-square, .fa-pull-right.icon-vimeo, .fa-pull-right.icon-youtube {
   margin-left: .3em; }
 
-.fa, .far, .fas {
-  font-family: "Font Awesome 5 Free"; }
+.fal, .icon-exclamation-circle, .icon-exclamation-triangle, .icon-info-circle, .icon-ban, .icon-check-circle, .icon-clock, .icon-comment-dots, .icon-user-circle, .icon-bell, .icon-chevron-circle-up, .icon-search, .icon-check, .icon-external-link-alt, .icon-search-plus, .icon-university, .icon-plus, .icon-minus, .icon-caret-up, .icon-caret-down, .icon-quote-right, .icon-print, .icon-copy, .icon-edit, .icon-trash-alt, .icon-download, .icon-calendar-alt, .icon-file-pdf, .icon-envelope, .icon-bookmark, .icon-window-close, .icon-times-circle, .icon-plus-circle, .icon-redo-alt, .icon-chevron-double-left, .icon-chevron-double-right, .icon-arrow-right, .icon-arrow-left, .icon-star {
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 300; }
 
-.fa, .fas {
-  font-weight: 900; }
-
-.fab, .instagram, .facebook-square, .twitter-square {
-  font-family: "Font Awesome 5 Brands"; }
-
-.fab, .instagram, .facebook-square, .twitter-square, .far {
+.fab, .icon-facebook-square, .icon-instagram, .icon-twitter-square, .icon-vimeo, .icon-youtube {
+  font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
 /**
- * @icon .instagram
+ * Critical, Emergency Alerts / Attention Status
+ *
+ * @atom .icon-exclamation-circle
+ * @section Icons
  * @markup
- *  <i class="instagram"></i>
+ *  <i class="icon-exclamation-circle"></i>
  */
-.instagram:before {
-  content: "\f16d"; }
+.icon-exclamation-circle:before {
+  content: "\f06a"; }
 
 /**
- * @icon .facebook-square
+ * Warning Alerts / Modified Status
+ *
+ * @atom .icon-exclamation-triangle
+ * @section Icons
  * @markup
- *  <i class="facebook-square"></i>
+ *  <i class="icon-exclamation-triangle"></i>
  */
-.facebook-square:before {
+.icon-exclamation-triangle:before {
+  content: "\f071"; }
+
+/**
+ * Info / FYI / Informational Alerts
+ *
+ * @atom .icon-info-circle
+ * @section Icons
+ * @markup
+ *  <i class="icon-info-circle"></i>
+ */
+.icon-info-circle:before {
+  content: "\f05a"; }
+
+/**
+ * Error, Problem Alerts / Not Available
+ *
+ * @atom .icon-ban
+ * @section Icons
+ * @markup
+ *  <i class="icon-ban"></i>
+ */
+.icon-ban:before {
+  content: "\f05e"; }
+
+/**
+ * Success / Conformation Alerts
+ *
+ * @atom .icon-check-circle
+ * @section Icons
+ * @markup
+ *  <i class="icon-check-circle"></i>
+ */
+.icon-check-circle:before {
+  content: "\f058"; }
+
+/**
+ * Hours
+ *
+ * @atom .icon-clock
+ * @section Icons
+ * @markup
+ *  <i class="icon-clock"></i>
+ */
+.icon-clock:before {
+  content: "\f017"; }
+
+/**
+ * Ask a Librarian
+ *
+ * @atom .icon-comment-dots
+ * @section Icons
+ * @markup
+ *  <i class="icon-comment-dots"></i>
+ */
+.icon-comment-dots:before {
+  content: "\f4ad"; }
+
+/**
+ * Account / MyAccount
+ *
+ * @atom .icon-user-circle
+ * @section Icons
+ * @markup
+ *  <i class="icon-user-circle"></i>
+ */
+.icon-user-circle:before {
+  content: "\f2bd"; }
+
+/**
+ * Alert (appears in navbar)
+ *
+ * @atom .icon-bell
+ * @section Icons
+ * @markup
+ *  <i class="icon-bell"></i>
+ */
+.icon-bell:before {
+  content: "\f0f3"; }
+
+/**
+ * Return to top
+ *
+ * @atom .icon-chevron-circle-up
+ * @section Icons
+ * @markup
+ *  <i class="icon-chevron-circle-up"></i>
+ */
+.icon-chevron-circle-up:before {
+  content: "\f139"; }
+
+/**
+ * Search
+ *
+ * @atom .icon-search
+ * @section Icons
+ * @markup
+ *  <i class="icon-search"></i>
+ */
+.icon-search:before {
+  content: "\f002"; }
+
+/**
+ * Status Available / Conformation
+ *
+ * @atom .icon-check
+ * @section Icons
+ * @markup
+ *  <i class="icon-check"></i>
+ */
+.icon-check:before {
+  content: "\f00c"; }
+
+/**
+ * External Link
+ *
+ * @atom .icon-external-link-alt
+ * @section Icons
+ * @markup
+ *  <i class="icon-external-link-alt"></i>
+ */
+.icon-external-link-alt:before {
+  content: "\f35d"; }
+
+/**
+ * Image Expand
+ *
+ * @atom .icon-search-plus
+ * @section Icons
+ * @markup
+ *  <i class="icon-search-plus"></i>
+ */
+.icon-search-plus:before {
+  content: "\f00e"; }
+
+/**
+ * Course Reserves
+ *
+ * @atom .icon-university
+ * @section Icons
+ * @markup
+ *  <i class="icon-university"></i>
+ */
+.icon-university:before {
+  content: "\f19c"; }
+
+/**
+ * Accordion Expand
+ *
+ * @atom .icon-plus
+ * @section Icons
+ * @markup
+ *  <i class="icon-plus"></i>
+ */
+.icon-plus:before {
+  content: "\f067"; }
+
+/**
+ * Accordion Collapse
+ *
+ * @atom .icon-minus
+ * @section Icons
+ * @markup
+ *  <i class="icon-minus"></i>
+ */
+.icon-minus:before {
+  content: "\f068"; }
+
+/**
+ * Drop Down Menu up
+ *
+ * @atom .icon-caret-up
+ * @section Icons
+ * @markup
+ *  <i class="icon-caret-up"></i>
+ */
+.icon-caret-up:before {
+  content: "\f0d8"; }
+
+/**
+ * Drop Down Menu down 
+ *
+ * @atom .icon-caret-down
+ * @section Icons
+ * @markup
+ *  <i class="icon-caret-down"></i>
+ */
+.icon-caret-down:before {
+  content: "\f0d7"; }
+
+/**
+ * Cite
+ *
+ * @atom .icon-quote-right
+ * @section Icons
+ * @markup
+ *  <i class="icon-quote-right"></i>
+ */
+.icon-quote-right:before {
+  content: "\f10e"; }
+
+/**
+ * Print
+ *
+ * @atom .icon-print
+ * @section Icons
+ * @markup
+ *  <i class="icon-print"></i>
+ */
+.icon-print:before {
+  content: "\f02f"; }
+
+/**
+ * Copy
+ *
+ * @atom .icon-copy
+ * @section Icons
+ * @markup
+ *  <i class="icon-copy"></i>
+ */
+.icon-copy:before {
+  content: "\f0c5"; }
+
+/**
+ * Edit
+ *
+ * @atom .icon-edit
+ * @section Icons
+ * @markup
+ *  <i class="icon-edit"></i>
+ */
+.icon-edit:before {
+  content: "\f044"; }
+
+/**
+ * Delete
+ *
+ * @atom .icon-trash-alt
+ * @section Icons
+ * @markup
+ *  <i class="icon-trash-alt"></i>
+ */
+.icon-trash-alt:before {
+  content: "\f2ed"; }
+
+/**
+ * Download
+ *
+ * @atom .icon-download
+ * @section Icons
+ * @markup
+ *  <i class="icon-download"></i>
+ */
+.icon-download:before {
+  content: "\f019"; }
+
+/**
+ * Calendar 
+ *
+ * @atom .icon-calendar-alt
+ * @section Icons
+ * @markup
+ *  <i class="icon-calendar-alt"></i>
+ */
+.icon-calendar-alt:before {
+  content: "\f073"; }
+
+/**
+ * PDF 
+ *
+ * @atom .icon-file-pdf
+ * @section Icons
+ * @markup
+ *  <i class="icon-file-pdf"></i>
+ */
+.icon-file-pdf:before {
+  content: "\f1c1"; }
+
+/**
+ * Facebook
+ *
+ * @atom .icon-facebook-square
+ * @section Icons
+ * @markup
+ *  <i class="icon-facebook-square"></i>
+ */
+.icon-facebook-square:before {
   content: "\f082"; }
 
 /**
- * @icon .twitter-square
+ * Instagram
+ *
+ * @atom .icon-instagram
+ * @section Icons
  * @markup
- *  <i class="twitter-square"></i>
+ *  <i class="icon-instagram"></i>
  */
-.twitter-square:before {
+.icon-instagram:before {
+  content: "\f16d"; }
+
+/**
+ * Twitter
+ *
+ * @atom .icon-twitter-square
+ * @section Icons
+ * @markup
+ *  <i class="icon-twitter-square"></i>
+ */
+.icon-twitter-square:before {
   content: "\f081"; }
+
+/**
+ * Vimeo
+ *
+ * @atom .icon-vimeo
+ * @section Icons
+ * @markup
+ *  <i class="icon-vimeo"></i>
+ */
+.icon-vimeo:before {
+  content: "\f40a"; }
+
+/**
+ * Youtube
+ *
+ * @atom .icon-youtube
+ * @section Icons
+ * @markup
+ *  <i class="icon-youtube"></i>
+ */
+.icon-youtube:before {
+  content: "\f167"; }
+
+/**
+ * Email
+ *
+ * @atom .icon-envelope
+ * @section Icons
+ * @markup
+ *  <i class="icon-envelope"></i>
+ */
+.icon-envelope:before {
+  content: "\f0e0"; }
+
+/**
+ * Bookmark
+ *
+ * @atom .icon-bookmark
+ * @section Icons
+ * @markup
+ *  <i class="icon-bookmark"></i>
+ */
+.icon-bookmark:before {
+  content: "\f02e"; }
+
+/**
+ * Close Window / Close Dialog
+ *
+ * @atom .icon-window-close
+ * @section Icons
+ * @markup
+ *  <i class="icon-window-close"></i>
+ */
+.icon-window-close:before {
+  content: "\f410"; }
+
+/**
+ * Remove Search Criteria
+ *
+ * @atom .icon-x-circle
+ * @section Icons
+ * @markup
+ *  <i class="icon-x-circle"></i>
+ */
+.icon-times-circle:before {
+  content: "\f057"; }
+
+/**
+ * Add Criteria
+ * 
+ * @atom .icon-plus-circle
+ * @section Icons
+ * @markup
+ *  <i class="icon-plus-circle"></i>
+ */
+.icon-plus-circle:before {
+  content: "\f055"; }
+
+/**
+ * Refresh Page / Reload / Reset
+ * @atom .icon-redo-alt
+ * @section Icons
+ * @markup
+ *  <i class="icon-redo-alt"></i>
+ */
+.icon-redo-alt:before {
+  content: "\f2f9"; }
+
+/**
+ * Slide Left (on page)
+ *
+ * @atom .icon-chevron-double-left
+ * @section Icons
+ * @markup
+ *  <i class="icon-chevron-double-left"></i>
+ */
+.icon-chevron-double-left:before {
+  content: "\f323"; }
+
+/**
+ * Slide Right (on page)
+ *
+ * @atom .icon-chevron-double-right
+ * @section Icons
+ * @markup
+ *  <i class="icon-chevron-double-right"></i>
+ */
+.icon-chevron-double-right:before {
+  content: "\f324"; }
+
+/**
+ * Page Forward
+ *
+ * @atom .icon-arrow-right
+ * @section Icons
+ * @markup
+ *  <i class="icon-arrow-right"></i>
+ */
+.icon-arrow-right:before {
+  content: "\f178"; }
+
+/**
+ * Page Back
+ *
+ * @atom .icon-arrow-left
+ * @section Icons
+ * @markup
+ *  <i class="icon-arrow-left"></i>
+ */
+.icon-arrow-left:before {
+  content: "\f177"; }
+
+/**
+ * Special Selected / Preferred
+ *
+ * @atom .icon-star
+ * @section Icons
+ * @markup
+ *  <i class="icon-star"></i>
+ */
+.icon-star:before {
+  content: "\f005"; }
 
 /** @color Black */
 /** @color White */
