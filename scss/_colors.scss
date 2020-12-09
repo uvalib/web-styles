@@ -34,6 +34,16 @@ $uvalib-brand-blue: #232D4B;
  */
 $uvalib-brand-orange-lightest: #FFEAD6;
 /**
+ * @color Orange (lighter)
+ * @section 2019-2020 Brand Colors
+ */
+ $uvalib-brand-orange-lighter: #FFC999;
+ /**
+ * @color Orange (light)
+ * @section 2019-2020 Brand Colors
+ */
+$uvalib-brand-orange-light: #FFB370;
+/**
  * @color Orange
  * @section 2019-2020 Brand Colors
  */
@@ -44,15 +54,25 @@ $uvalib-brand-orange: #E57200;
  */
 $uvalib-brand-orange-dark: #B35900;
 /**
- * @color Alternative Blue (light)
+ * @color Orange (darker)
  * @section 2019-2020 Brand Colors
  */
-$uvalib-blue-alt-light: #BFE7F7;
+ $uvalib-brand-orange-darker: #854200;
 /**
  * @color Alternative Blue (lightest)
  * @section 2019-2020 Brand Colors
  */
 $uvalib-blue-alt-lightest: #BFE7F7;
+/**
+ * @color Alternative Blue (lighter)
+ * @section 2019-2020 Brand Colors
+ */
+ $uvalib-blue-alt-lighter: #91D8F2;
+/**
+ * @color Alternative Blue (light)
+ * @section 2019-2020 Brand Colors
+ */
+ $uvalib-blue-alt-light: #55C4EC; 
 /**
  * @color Alternative Blue
  * @section 2019-2020 Brand Colors
@@ -82,17 +102,27 @@ $uvalib-teal-light: #5BD7DE;
  * @color Teal
  * @section 2019-2020 Brand Colors
  */
-$uvalib-teal: #1DA1A8;
+$uvalib-teal: #25CAD3;
 /**
  * @color Teal (dark)
  * @section 2019-2020 Brand Colors
  */
-$uvalib-teal-dark: #16777C;
+$uvalib-teal-dark: #1DA1A8;
+/**
+ * @color Teal (darker)
+ * @section 2019-2020 Brand Colors
+ */
+ $uvalib-teal-darker: #B30000;
 /**
  * @color Green (lightest)
  * @section 2019-2020 Brand Colors
  */
-$uvalib-green-lightest: #89CC74;
+$uvalib-green-lightest: #DDEFDC;
+/**
+ * @color Green (lighter)
+ * @section 2019-2020 Brand Colors
+ */
+ $uvalib-green-lighter: #89CC74;
 /**
  * @color Green
  * @section 2019-2020 Brand Colors
@@ -122,7 +152,7 @@ $uvalib-red-dark: #DF1E43;
  * @color Red (darkest)
  * @section 2019-2020 Brand Colors
  */
-$uvalib-red-darkest: #B30000;
+$uvalib-red-darker: #B30000;
 /**
  * @color Yellow (light)
  * @section 2019-2020 Brand Colors
@@ -190,7 +220,7 @@ $uvalib-text-dark: $uvalib-grey-darkest;
  * @color Red Emergency
  * @section 2019-2020 Brand Colors
  */
-$uvalib-red-emergency: #DF1E43;
+$uvalib-red-emergency: $uvalib-red-darker;
 
 /*Secondary Brand Colors*/
 
@@ -259,56 +289,6 @@ $uvalib-text-almost-black: #212121; /*ADA compliant*/
  * @section Secondary Brand Colors
  */
 $uvalib-secondary-emergency-red: #E00000; /*ADA compliant*/
-
-/* STATUS COLORS - ADA COMPLIANT - IBM MODEL */
-
-/**
- * @color Status Lite Orange (ADA compliant - IBM Model)
- * @section Status Colors
- */
-$uvalib-status-ltorange: #FFB000;
-
-/**
- * @color Status Orange (ADA compliant - IBM Model)
- * @section Status Colors
- */
- $uvalib-status-orange: #FE6100;
-
- /**
- * @color Status Magenta (ADA compliant - IBM Model)
- * @section Status Colors
- */
- $uvalib-status-magenta: #DC267F;
-
- /**
- * @color Status Purple (ADA compliant - IBM Model)
- * @section Status Colors
- */
-$uvalib-status-purple: #785EF0;
-
-/**
- * @color Status Blue (ADA compliant - IBM Model)
- * @section Status Colors
- */
-$uvalib-status-blue: #648FFF;
-
-/**
- * @color Status Available (ADA compliant - IBM Model)
- * @section Status Colors
- */
-$uvalib-status-available: #648FFF;
-
-/**
- * @color Status Modified (ADA compliant - IBM Model)
- * @section Status Colors
- */
-$uvalib-status-modified: #FFB000;
-
-/**
- * @color Status Not Available (ADA compliant - IBM Model)
- * @section Status Colors
- */
-$uvalib-status-notavailable: #DC267F;
 
 /* PHASE OUT THE CODE BELOW */
 /* Brand Color Palate*/
@@ -404,6 +384,9 @@ $color-emergency-red: $uvalib-danger;
 $color-accessibility-outline: cyan;
 $color-accessibility-outline-light-bg: $uvalib-grey-700;
 $color-accessibility-outline-dark-bg: $uvalib-grey-400;
+
+$accessibility-outline-color--bgislight: $uvalib-blue-alt-dark;
+$accessibility-outline-color--bgisdark: $uvalib-blue-alt-lightest;
 
 $uvalib-captions-bg: $uvalib-grey-200;
 $uvalib-sidebar-bg: $uvalib-white;
