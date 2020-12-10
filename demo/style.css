@@ -24,6 +24,14 @@
  * @section 2019-2020 Brand Colors
  */
 /**
+ * @color Orange (lighter)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Orange (light)
+ * @section 2019-2020 Brand Colors
+ */
+/**
  * @color Orange
  * @section 2019-2020 Brand Colors
  */
@@ -32,11 +40,19 @@
  * @section 2019-2020 Brand Colors
  */
 /**
- * @color Alternative Blue (light)
+ * @color Orange (darker)
  * @section 2019-2020 Brand Colors
  */
 /**
  * @color Alternative Blue (lightest)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Alternative Blue (lighter)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Alternative Blue (light)
  * @section 2019-2020 Brand Colors
  */
 /**
@@ -68,7 +84,15 @@
  * @section 2019-2020 Brand Colors
  */
 /**
+ * @color Teal (darker)
+ * @section 2019-2020 Brand Colors
+ */
+/**
  * @color Green (lightest)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Green (lighter)
  * @section 2019-2020 Brand Colors
  */
 /**
@@ -92,7 +116,7 @@
  * @section 2019-2020 Brand Colors
  */
 /**
- * @color Red (darkest)
+ * @color Red (darker)
  * @section 2019-2020 Brand Colors
  */
 /**
@@ -205,39 +229,6 @@
  * @section Secondary Brand Colors
  */
 /*ADA compliant*/
-/* STATUS COLORS - ADA COMPLIANT - IBM MODEL */
-/**
- * @color Status Lite Orange (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Orange (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Magenta (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Purple (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Blue (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Available (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Modified (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Not Available (ADA compliant - IBM Model)
- * @section Status Colors
- */
 /* PHASE OUT THE CODE BELOW */
 /* Brand Color Palate*/
 /* link colors for body links */
@@ -259,7 +250,7 @@
 /* typography variables */
 /* used for headers in card body */
 /* main body font */
-.fa, .fas, .far, .fal, .icon-exclamation-circle, .icon-exclamation-triangle, .icon-info-circle, .icon-ban, .icon-check-circle, .icon-clock, .icon-comment-dots, .icon-user-circle, .icon-bell, .icon-chevron-circle-up, .icon-search, .icon-check, .icon-external-link-alt, .icon-search-plus, .icon-university, .icon-plus, .icon-minus, .icon-caret-up, .icon-caret-down, .icon-quote-right, .icon-print, .icon-copy, .icon-edit, .icon-trash-alt, .icon-download, .icon-calendar-alt, .icon-file-pdf, .icon-envelope, .icon-bookmark, .icon-window-close, .icon-times-circle, .icon-plus-circle, .icon-redo-alt, .icon-chevron-double-left, .icon-chevron-double-right, .icon-arrow-right, .icon-arrow-left, .icon-star, .fad, .fab, .icon-facebook-square, .icon-instagram, .icon-twitter-square, .icon-vimeo, .icon-youtube {
+.fa, .fas, .far, .icon-window-close, .fal, .icon-exclamation-circle, .icon-exclamation-triangle, .icon-info-circle, .icon-ban, .icon-check-circle, .icon-clock, .icon-comment-dots, .icon-user-circle, .icon-bell, .icon-chevron-circle-up, .icon-search, .icon-check, .icon-external-link-alt, .icon-search-plus, .icon-university, .icon-plus, .icon-minus, .icon-caret-up, .icon-caret-down, .icon-quote-right, .icon-print, .icon-copy, .icon-edit, .icon-trash-alt, .icon-download, .icon-calendar-alt, .icon-file-pdf, .icon-envelope, .icon-bookmark, .icon-times-circle, .icon-plus-circle, .icon-redo-alt, .icon-chevron-double-left, .icon-chevron-double-right, .icon-arrow-right, .icon-arrow-left, .icon-star, .fad, .fab, .icon-facebook-square, .icon-instagram, .icon-twitter-square, .icon-vimeo, .icon-youtube {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -268,13 +259,13 @@
   text-rendering: auto;
   line-height: 1; }
 
-.fa.fa-pull-left, .fas.fa-pull-left, .far.fa-pull-left, .fal.fa-pull-left, .fa-pull-left.icon-exclamation-circle, .fa-pull-left.icon-exclamation-triangle, .fa-pull-left.icon-info-circle, .fa-pull-left.icon-ban, .fa-pull-left.icon-check-circle, .fa-pull-left.icon-clock, .fa-pull-left.icon-comment-dots, .fa-pull-left.icon-user-circle, .fa-pull-left.icon-bell, .fa-pull-left.icon-chevron-circle-up, .fa-pull-left.icon-search, .fa-pull-left.icon-check, .fa-pull-left.icon-external-link-alt, .fa-pull-left.icon-search-plus, .fa-pull-left.icon-university, .fa-pull-left.icon-plus, .fa-pull-left.icon-minus, .fa-pull-left.icon-caret-up, .fa-pull-left.icon-caret-down, .fa-pull-left.icon-quote-right, .fa-pull-left.icon-print, .fa-pull-left.icon-copy, .fa-pull-left.icon-edit, .fa-pull-left.icon-trash-alt, .fa-pull-left.icon-download, .fa-pull-left.icon-calendar-alt, .fa-pull-left.icon-file-pdf, .fa-pull-left.icon-envelope, .fa-pull-left.icon-bookmark, .fa-pull-left.icon-window-close, .fa-pull-left.icon-times-circle, .fa-pull-left.icon-plus-circle, .fa-pull-left.icon-redo-alt, .fa-pull-left.icon-chevron-double-left, .fa-pull-left.icon-chevron-double-right, .fa-pull-left.icon-arrow-right, .fa-pull-left.icon-arrow-left, .fa-pull-left.icon-star, .fab.fa-pull-left, .fa-pull-left.icon-facebook-square, .fa-pull-left.icon-instagram, .fa-pull-left.icon-twitter-square, .fa-pull-left.icon-vimeo, .fa-pull-left.icon-youtube {
+.fa.fa-pull-left, .fas.fa-pull-left, .far.fa-pull-left, .fa-pull-left.icon-window-close, .fal.fa-pull-left, .fa-pull-left.icon-exclamation-circle, .fa-pull-left.icon-exclamation-triangle, .fa-pull-left.icon-info-circle, .fa-pull-left.icon-ban, .fa-pull-left.icon-check-circle, .fa-pull-left.icon-clock, .fa-pull-left.icon-comment-dots, .fa-pull-left.icon-user-circle, .fa-pull-left.icon-bell, .fa-pull-left.icon-chevron-circle-up, .fa-pull-left.icon-search, .fa-pull-left.icon-check, .fa-pull-left.icon-external-link-alt, .fa-pull-left.icon-search-plus, .fa-pull-left.icon-university, .fa-pull-left.icon-plus, .fa-pull-left.icon-minus, .fa-pull-left.icon-caret-up, .fa-pull-left.icon-caret-down, .fa-pull-left.icon-quote-right, .fa-pull-left.icon-print, .fa-pull-left.icon-copy, .fa-pull-left.icon-edit, .fa-pull-left.icon-trash-alt, .fa-pull-left.icon-download, .fa-pull-left.icon-calendar-alt, .fa-pull-left.icon-file-pdf, .fa-pull-left.icon-envelope, .fa-pull-left.icon-bookmark, .fa-pull-left.icon-times-circle, .fa-pull-left.icon-plus-circle, .fa-pull-left.icon-redo-alt, .fa-pull-left.icon-chevron-double-left, .fa-pull-left.icon-chevron-double-right, .fa-pull-left.icon-arrow-right, .fa-pull-left.icon-arrow-left, .fa-pull-left.icon-star, .fab.fa-pull-left, .fa-pull-left.icon-facebook-square, .fa-pull-left.icon-instagram, .fa-pull-left.icon-twitter-square, .fa-pull-left.icon-vimeo, .fa-pull-left.icon-youtube {
   margin-right: .3em; }
 
-.fa.fa-pull-right, .fas.fa-pull-right, .far.fa-pull-right, .fal.fa-pull-right, .fa-pull-right.icon-exclamation-circle, .fa-pull-right.icon-exclamation-triangle, .fa-pull-right.icon-info-circle, .fa-pull-right.icon-ban, .fa-pull-right.icon-check-circle, .fa-pull-right.icon-clock, .fa-pull-right.icon-comment-dots, .fa-pull-right.icon-user-circle, .fa-pull-right.icon-bell, .fa-pull-right.icon-chevron-circle-up, .fa-pull-right.icon-search, .fa-pull-right.icon-check, .fa-pull-right.icon-external-link-alt, .fa-pull-right.icon-search-plus, .fa-pull-right.icon-university, .fa-pull-right.icon-plus, .fa-pull-right.icon-minus, .fa-pull-right.icon-caret-up, .fa-pull-right.icon-caret-down, .fa-pull-right.icon-quote-right, .fa-pull-right.icon-print, .fa-pull-right.icon-copy, .fa-pull-right.icon-edit, .fa-pull-right.icon-trash-alt, .fa-pull-right.icon-download, .fa-pull-right.icon-calendar-alt, .fa-pull-right.icon-file-pdf, .fa-pull-right.icon-envelope, .fa-pull-right.icon-bookmark, .fa-pull-right.icon-window-close, .fa-pull-right.icon-times-circle, .fa-pull-right.icon-plus-circle, .fa-pull-right.icon-redo-alt, .fa-pull-right.icon-chevron-double-left, .fa-pull-right.icon-chevron-double-right, .fa-pull-right.icon-arrow-right, .fa-pull-right.icon-arrow-left, .fa-pull-right.icon-star, .fab.fa-pull-right, .fa-pull-right.icon-facebook-square, .fa-pull-right.icon-instagram, .fa-pull-right.icon-twitter-square, .fa-pull-right.icon-vimeo, .fa-pull-right.icon-youtube {
+.fa.fa-pull-right, .fas.fa-pull-right, .far.fa-pull-right, .fa-pull-right.icon-window-close, .fal.fa-pull-right, .fa-pull-right.icon-exclamation-circle, .fa-pull-right.icon-exclamation-triangle, .fa-pull-right.icon-info-circle, .fa-pull-right.icon-ban, .fa-pull-right.icon-check-circle, .fa-pull-right.icon-clock, .fa-pull-right.icon-comment-dots, .fa-pull-right.icon-user-circle, .fa-pull-right.icon-bell, .fa-pull-right.icon-chevron-circle-up, .fa-pull-right.icon-search, .fa-pull-right.icon-check, .fa-pull-right.icon-external-link-alt, .fa-pull-right.icon-search-plus, .fa-pull-right.icon-university, .fa-pull-right.icon-plus, .fa-pull-right.icon-minus, .fa-pull-right.icon-caret-up, .fa-pull-right.icon-caret-down, .fa-pull-right.icon-quote-right, .fa-pull-right.icon-print, .fa-pull-right.icon-copy, .fa-pull-right.icon-edit, .fa-pull-right.icon-trash-alt, .fa-pull-right.icon-download, .fa-pull-right.icon-calendar-alt, .fa-pull-right.icon-file-pdf, .fa-pull-right.icon-envelope, .fa-pull-right.icon-bookmark, .fa-pull-right.icon-times-circle, .fa-pull-right.icon-plus-circle, .fa-pull-right.icon-redo-alt, .fa-pull-right.icon-chevron-double-left, .fa-pull-right.icon-chevron-double-right, .fa-pull-right.icon-arrow-right, .fa-pull-right.icon-arrow-left, .fa-pull-right.icon-star, .fab.fa-pull-right, .fa-pull-right.icon-facebook-square, .fa-pull-right.icon-instagram, .fa-pull-right.icon-twitter-square, .fa-pull-right.icon-vimeo, .fa-pull-right.icon-youtube {
   margin-left: .3em; }
 
-.fal, .icon-exclamation-circle, .icon-exclamation-triangle, .icon-info-circle, .icon-ban, .icon-check-circle, .icon-clock, .icon-comment-dots, .icon-user-circle, .icon-bell, .icon-chevron-circle-up, .icon-search, .icon-check, .icon-external-link-alt, .icon-search-plus, .icon-university, .icon-plus, .icon-minus, .icon-caret-up, .icon-caret-down, .icon-quote-right, .icon-print, .icon-copy, .icon-edit, .icon-trash-alt, .icon-download, .icon-calendar-alt, .icon-file-pdf, .icon-envelope, .icon-bookmark, .icon-window-close, .icon-times-circle, .icon-plus-circle, .icon-redo-alt, .icon-chevron-double-left, .icon-chevron-double-right, .icon-arrow-right, .icon-arrow-left, .icon-star {
+.fal, .icon-exclamation-circle, .icon-exclamation-triangle, .icon-info-circle, .icon-ban, .icon-check-circle, .icon-clock, .icon-comment-dots, .icon-user-circle, .icon-bell, .icon-chevron-circle-up, .icon-search, .icon-check, .icon-external-link-alt, .icon-search-plus, .icon-university, .icon-plus, .icon-minus, .icon-caret-up, .icon-caret-down, .icon-quote-right, .icon-print, .icon-copy, .icon-edit, .icon-trash-alt, .icon-download, .icon-calendar-alt, .icon-file-pdf, .icon-envelope, .icon-bookmark, .icon-times-circle, .icon-plus-circle, .icon-redo-alt, .icon-chevron-double-left, .icon-chevron-double-right, .icon-arrow-right, .icon-arrow-left, .icon-star {
   font-family: 'Font Awesome 5 Pro';
   font-weight: 300; }
 
@@ -780,6 +771,14 @@
  * @section 2019-2020 Brand Colors
  */
 /**
+ * @color Orange (lighter)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Orange (light)
+ * @section 2019-2020 Brand Colors
+ */
+/**
  * @color Orange
  * @section 2019-2020 Brand Colors
  */
@@ -788,11 +787,19 @@
  * @section 2019-2020 Brand Colors
  */
 /**
- * @color Alternative Blue (light)
+ * @color Orange (darker)
  * @section 2019-2020 Brand Colors
  */
 /**
  * @color Alternative Blue (lightest)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Alternative Blue (lighter)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Alternative Blue (light)
  * @section 2019-2020 Brand Colors
  */
 /**
@@ -824,7 +831,15 @@
  * @section 2019-2020 Brand Colors
  */
 /**
+ * @color Teal (darker)
+ * @section 2019-2020 Brand Colors
+ */
+/**
  * @color Green (lightest)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Green (lighter)
  * @section 2019-2020 Brand Colors
  */
 /**
@@ -848,7 +863,7 @@
  * @section 2019-2020 Brand Colors
  */
 /**
- * @color Red (darkest)
+ * @color Red (darker)
  * @section 2019-2020 Brand Colors
  */
 /**
@@ -961,39 +976,6 @@
  * @section Secondary Brand Colors
  */
 /*ADA compliant*/
-/* STATUS COLORS - ADA COMPLIANT - IBM MODEL */
-/**
- * @color Status Lite Orange (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Orange (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Magenta (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Purple (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Blue (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Available (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Modified (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Not Available (ADA compliant - IBM Model)
- * @section Status Colors
- */
 /* PHASE OUT THE CODE BELOW */
 /* Brand Color Palate*/
 /* link colors for body links */
@@ -1029,6 +1011,14 @@
  * @section 2019-2020 Brand Colors
  */
 /**
+ * @color Orange (lighter)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Orange (light)
+ * @section 2019-2020 Brand Colors
+ */
+/**
  * @color Orange
  * @section 2019-2020 Brand Colors
  */
@@ -1037,11 +1027,19 @@
  * @section 2019-2020 Brand Colors
  */
 /**
- * @color Alternative Blue (light)
+ * @color Orange (darker)
  * @section 2019-2020 Brand Colors
  */
 /**
  * @color Alternative Blue (lightest)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Alternative Blue (lighter)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Alternative Blue (light)
  * @section 2019-2020 Brand Colors
  */
 /**
@@ -1073,7 +1071,15 @@
  * @section 2019-2020 Brand Colors
  */
 /**
+ * @color Teal (darker)
+ * @section 2019-2020 Brand Colors
+ */
+/**
  * @color Green (lightest)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Green (lighter)
  * @section 2019-2020 Brand Colors
  */
 /**
@@ -1097,7 +1103,7 @@
  * @section 2019-2020 Brand Colors
  */
 /**
- * @color Red (darkest)
+ * @color Red (darker)
  * @section 2019-2020 Brand Colors
  */
 /**
@@ -1210,39 +1216,6 @@
  * @section Secondary Brand Colors
  */
 /*ADA compliant*/
-/* STATUS COLORS - ADA COMPLIANT - IBM MODEL */
-/**
- * @color Status Lite Orange (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Orange (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Magenta (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Purple (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Blue (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Available (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Modified (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Not Available (ADA compliant - IBM Model)
- * @section Status Colors
- */
 /* PHASE OUT THE CODE BELOW */
 /* Brand Color Palate*/
 /* link colors for body links */
@@ -1311,6 +1284,14 @@ h1 {
  * @section 2019-2020 Brand Colors
  */
 /**
+ * @color Orange (lighter)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Orange (light)
+ * @section 2019-2020 Brand Colors
+ */
+/**
  * @color Orange
  * @section 2019-2020 Brand Colors
  */
@@ -1319,11 +1300,19 @@ h1 {
  * @section 2019-2020 Brand Colors
  */
 /**
- * @color Alternative Blue (light)
+ * @color Orange (darker)
  * @section 2019-2020 Brand Colors
  */
 /**
  * @color Alternative Blue (lightest)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Alternative Blue (lighter)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Alternative Blue (light)
  * @section 2019-2020 Brand Colors
  */
 /**
@@ -1355,7 +1344,15 @@ h1 {
  * @section 2019-2020 Brand Colors
  */
 /**
+ * @color Teal (darker)
+ * @section 2019-2020 Brand Colors
+ */
+/**
  * @color Green (lightest)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Green (lighter)
  * @section 2019-2020 Brand Colors
  */
 /**
@@ -1379,7 +1376,7 @@ h1 {
  * @section 2019-2020 Brand Colors
  */
 /**
- * @color Red (darkest)
+ * @color Red (darker)
  * @section 2019-2020 Brand Colors
  */
 /**
@@ -1492,39 +1489,6 @@ h1 {
  * @section Secondary Brand Colors
  */
 /*ADA compliant*/
-/* STATUS COLORS - ADA COMPLIANT - IBM MODEL */
-/**
- * @color Status Lite Orange (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Orange (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Magenta (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Purple (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Blue (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Available (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Modified (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Not Available (ADA compliant - IBM Model)
- * @section Status Colors
- */
 /* PHASE OUT THE CODE BELOW */
 /* Brand Color Palate*/
 /* link colors for body links */
@@ -1560,6 +1524,14 @@ h1 {
  * @section 2019-2020 Brand Colors
  */
 /**
+ * @color Orange (lighter)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Orange (light)
+ * @section 2019-2020 Brand Colors
+ */
+/**
  * @color Orange
  * @section 2019-2020 Brand Colors
  */
@@ -1568,11 +1540,19 @@ h1 {
  * @section 2019-2020 Brand Colors
  */
 /**
- * @color Alternative Blue (light)
+ * @color Orange (darker)
  * @section 2019-2020 Brand Colors
  */
 /**
  * @color Alternative Blue (lightest)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Alternative Blue (lighter)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Alternative Blue (light)
  * @section 2019-2020 Brand Colors
  */
 /**
@@ -1604,7 +1584,15 @@ h1 {
  * @section 2019-2020 Brand Colors
  */
 /**
+ * @color Teal (darker)
+ * @section 2019-2020 Brand Colors
+ */
+/**
  * @color Green (lightest)
+ * @section 2019-2020 Brand Colors
+ */
+/**
+ * @color Green (lighter)
  * @section 2019-2020 Brand Colors
  */
 /**
@@ -1628,7 +1616,7 @@ h1 {
  * @section 2019-2020 Brand Colors
  */
 /**
- * @color Red (darkest)
+ * @color Red (darker)
  * @section 2019-2020 Brand Colors
  */
 /**
@@ -1741,39 +1729,6 @@ h1 {
  * @section Secondary Brand Colors
  */
 /*ADA compliant*/
-/* STATUS COLORS - ADA COMPLIANT - IBM MODEL */
-/**
- * @color Status Lite Orange (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Orange (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Magenta (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Purple (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Blue (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Available (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Modified (ADA compliant - IBM Model)
- * @section Status Colors
- */
-/**
- * @color Status Not Available (ADA compliant - IBM Model)
- * @section Status Colors
- */
 /* PHASE OUT THE CODE BELOW */
 /* Brand Color Palate*/
 /* link colors for body links */
