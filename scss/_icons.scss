@@ -386,8 +386,8 @@
  * @markup
  *  <i class="icon-window-close"></i>
  */
- .icon-window-close{ @extend .far }
- .icon-window-close:before{content: "\f410";}
+ .icon-window-close-regular{ @extend .far }
+ .icon-window-close-regular:before{content: "\f2d3";}
 
 /**
  * Remove Search Criteria
